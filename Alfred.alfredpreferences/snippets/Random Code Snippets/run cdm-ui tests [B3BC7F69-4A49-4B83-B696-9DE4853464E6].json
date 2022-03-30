@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "yarn lint & yarn test & yarn build -v localtest",
+    "uid" : "B3BC7F69-4A49-4B83-B696-9DE4853464E6",
+    "name" : "run cdm-ui tests",
+    "keyword" : ""
+  }
+}

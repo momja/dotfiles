@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#A6AACDFF",
+        "font" : "JetBrains Mono Medium Medium",
+        "color" : "#676D71FF"
+      },
+      "shortcut" : {
+        "size" : 8,
+        "colorSelected" : "#FFCD00FF",
+        "font" : "JetBrains Mono Medium Medium",
+        "color" : "#464A67FF"
+      },
+      "backgroundSelected" : "#464A67FF",
+      "text" : {
+        "size" : 24,
+        "colorSelected" : "#EAECFFFF",
+        "font" : "System Light",
+        "color" : "#030403FF"
+      },
+      "iconPaddingHorizontal" : 11,
+      "roundness" : 30,
+      "paddingVertical" : 9,
+      "iconSize" : 40
+    },
+    "search" : {
+      "backgroundSelected" : "#00B0E933",
+      "paddingHorizontal" : 9,
+      "spacing" : 10,
+      "text" : {
+        "size" : 42,
+        "colorSelected" : "#000000FF",
+        "font" : "JetBrains Mono Medium Medium",
+        "color" : "#030403FF"
+      },
+      "background" : "#F7F8F900",
+      "roundness" : 64,
+      "paddingVertical" : 3
+    },
+    "window" : {
+      "color" : "#F7F8F9F4",
+      "paddingHorizontal" : 10,
+      "width" : 530,
+      "borderPadding" : 0,
+      "borderColor" : "#00000000",
+      "blur" : 0,
+      "roundness" : 37,
+      "paddingVertical" : 10
+    },
+    "credit" : "Max Omdal",
+    "visualEffectMode" : 1,
+    "separator" : {
+      "color" : "#3A3E5700",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#656C9680",
+      "thickness" : 0
+    },
+    "name" : "Material Light"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "📌",
+    "uid" : "E0CF12B9-55E6-4447-BAE8-FD8CCE47E822",
+    "name" : "Pin a dependency to a specific version",
+    "keyword" : ":git-pin:"
+  }
+}

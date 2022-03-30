@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "⏪",
+    "uid" : "5ABE3E74-8350-4043-BE47-5D793FC7E9CE",
+    "name" : "Revert changes",
+    "keyword" : ":git-revert-changes:"
+  }
+}

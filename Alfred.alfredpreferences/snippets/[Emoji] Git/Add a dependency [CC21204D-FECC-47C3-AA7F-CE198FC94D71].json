@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "➕",
+    "uid" : "CC21204D-FECC-47C3-AA7F-CE198FC94D71",
+    "name" : "Add a dependency",
+    "keyword" : ":git-dependency-add:"
+  }
+}

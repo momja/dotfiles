@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "💚",
+    "uid" : "6D12097C-5B37-4CA8-96BC-C6185A037ED5",
+    "name" : "Fix CI build",
+    "keyword" : ":git-ci-fix:"
+  }
+}

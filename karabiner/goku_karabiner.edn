@@ -1,0 +1,28 @@
+{
+    :templates {
+        :launch "osascript -e 'tell application \"Alfred 3\" to run trigger \"launch%s\" in workflow \"yqrashawn.workflow.launcher\" with argument \"%s\"'"
+        :slideIn "osascript ~/bin/moveTerminal.scpt"
+    }
+
+    :applications {
+        :chrome ["^com\\.google\\.Chrome$"]
+        :firefox ["^org\\.mozilla\\.firefoxdeveloperedition$"]
+    }
+    
+    :main [
+        {:des "cmd-p to cmd-l" :rules [[:!Cp :!Cl :chrome]]}
+        {:des "cmd-p to cmd-l" :rules [[:!Cp :!Cl :firefox]]}
+        {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :chrome]]}
+        {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :firefox]]}
+        {:des "cmd-shift-c to fn9" :rules [[:!CSr :f9 :firefox]]}
+        {:des "right-cmd to cmd-opt-ctrl-shift-space"
+         :rules [[:caps_lock :!!left_command nil {:alone :f18}]
+                 [:!!s [:launch "Slack"]]
+                 [:!!f [:launch "Firefox Developer Edition"]]
+                 [:!!t [:slideIn]]]
+        }
+        {:des "Quit application by pressing command-q twice" 
+         :rules [[:!C#Pq [:!Cq ["command-q" 0]] ["command-q" 1]]
+                 [:!C#Pq ["command-q" 1] nil {:delayed {:invoked ["command-q" 0] :canceled ["commandq" 0]}}]]}
+    ]
+}

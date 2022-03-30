@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "🗑",
+    "uid" : "B93895C4-73A4-413A-8BAB-4B94BB03F25C",
+    "name" : "Deprecate code",
+    "keyword" : ":git-deprecate:"
+  }
+}

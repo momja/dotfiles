@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>11DEE018-DA7C-4B47-B9F1-1065875E2BC6</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>nyt</string>
+			<key>text</key>
+			<string>New York Times</string>
+			<key>url</key>
+			<string>https://www.nytimes.com</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>4230F5D1-D7C0-47E1-BAE3-3C45AD8254B7</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>nyt style</string>
+			<key>text</key>
+			<string>NYT Style</string>
+			<key>url</key>
+			<string>https://www.nytimes.com/section/t-magazine</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>70E63935-E1C8-4311-AB27-A3AA7F2AF433</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>confluence</string>
+			<key>text</key>
+			<string>Confluence</string>
+			<key>url</key>
+			<string>https://veevasys.okta.com/home/confluence_onprem/0oa12fc1w3hEPm06B0i8/3523?fromHome=true</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>A74A7C1C-054B-439A-9A00-44083CD3CD92</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>share</string>
+			<key>spaces</key>
+			<string>%20</string>
+			<key>text</key>
+			<string>Veeva Share</string>
+			<key>url</key>
+			<string>https://veeva.veevashare.com/search/?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>C087B013-8F76-4B19-8D23-F92923E96CB7</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jira</string>
+			<key>text</key>
+			<string>Jira</string>
+			<key>url</key>
+			<string>https://jira.veevadev.com/secure/RapidBoard.jspa?rapidView=517&amp;view=detail&amp;selectedIssue=VDC-75295&amp;quickFilter=19323</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>DA171C44-2401-4FC1-AF1E-16173F84AC96</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>main</string>
+			<key>text</key>
+			<string>Main Vault</string>
+			<key>url</key>
+			<string>obsidian://?vault=main</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>F0EE081F-816D-4A56-82A6-DF936198BF61</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>work</string>
+			<key>text</key>
+			<string>Work Vault</string>
+			<key>url</key>
+			<string>obsidian://?vault=work</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

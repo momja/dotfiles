@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "⬆️",
+    "uid" : "EE2E53E4-F41F-457F-BFAD-40AC2AADDCA9",
+    "name" : "Upgrade dependencies",
+    "keyword" : ":git-upgrade:"
+  }
+}

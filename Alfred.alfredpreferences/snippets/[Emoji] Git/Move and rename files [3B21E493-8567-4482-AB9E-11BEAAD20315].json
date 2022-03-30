@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "🚚",
+    "uid" : "3B21E493-8567-4482-AB9E-11BEAAD20315",
+    "name" : "Move and rename files",
+    "keyword" : ":git-move-rename:"
+  }
+}

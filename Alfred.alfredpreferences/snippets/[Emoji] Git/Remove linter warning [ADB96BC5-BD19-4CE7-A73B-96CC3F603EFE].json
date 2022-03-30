@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "🚨",
+    "uid" : "ADB96BC5-BD19-4CE7-A73B-96CC3F603EFE",
+    "name" : "Remove linter warning",
+    "keyword" : ":git-remove-linter-warning:"
+  }
+}

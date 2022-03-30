@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "📦",
+    "uid" : "0FFE4F59-E142-4145-82E7-1A4B44CD1A18",
+    "name" : "Add package",
+    "keyword" : ":git-add-package:"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "⬇️",
+    "uid" : "95DB6452-9CDC-4017-BF7A-2BB6C65595AC",
+    "name" : "Downgrade dependency",
+    "keyword" : ":git-downgrade:"
+  }
+}

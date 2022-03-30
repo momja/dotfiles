@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "➖",
+    "uid" : "667B6708-84CC-49C5-A312-92D98D3C65BE",
+    "name" : "Remove a dependency",
+    "keyword" : ":git-dependency-remove:"
+  }
+}

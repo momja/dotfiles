@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "🗃",
+    "uid" : "77D11C24-C36B-4560-A86C-57B08483462A",
+    "name" : "Database changes",
+    "keyword" : ":git-database-changes:"
+  }
+}
