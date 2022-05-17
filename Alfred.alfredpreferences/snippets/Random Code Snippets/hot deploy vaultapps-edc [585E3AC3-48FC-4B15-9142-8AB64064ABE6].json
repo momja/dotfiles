@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "mvn clean install -DskipTests && ~\/Documents\/workspace\/dev_tools\/deployment\/hot_deploy_family.py -crf clinicalData_v",
+    "uid" : "585E3AC3-48FC-4B15-9142-8AB64064ABE6",
+    "name" : "hot deploy vaultapps-edc",
+    "keyword" : ""
+  }
+}

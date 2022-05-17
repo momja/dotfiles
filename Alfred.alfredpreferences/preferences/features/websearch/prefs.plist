@@ -17,6 +17,19 @@
 			<key>utf8</key>
 			<true/>
 		</dict>
+		<key>2CB5311B-197C-407E-A507-FFA6B874E2F9</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gl me</string>
+			<key>text</key>
+			<string>My Gitlab Merge Requests</string>
+			<key>url</key>
+			<string>https://gitlab.veevadev.com/dashboard/merge_requests?assignee_username=maxwell.omdal</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
 		<key>4230F5D1-D7C0-47E1-BAE3-3C45AD8254B7</key>
 		<dict>
 			<key>enabled</key>
@@ -40,6 +53,19 @@
 			<string>Confluence</string>
 			<key>url</key>
 			<string>https://veevasys.okta.com/home/confluence_onprem/0oa12fc1w3hEPm06B0i8/3523?fromHome=true</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>8833AB90-8AA0-4845-BD76-8B3E2071190A</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gl review</string>
+			<key>text</key>
+			<string>Gitlab Review Requests</string>
+			<key>url</key>
+			<string>https://gitlab.veevadev.com/dashboard/merge_requests?reviewer_username=maxwell.omdal</string>
 			<key>utf8</key>
 			<true/>
 		</dict>

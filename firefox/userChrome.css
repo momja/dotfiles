@@ -29,7 +29,6 @@ vbox#titlebar {
 #sidebar-box,
 #sidebar-box #sidebar {
     min-width: var(--sidebar-width) !important;
-    max-width: var(--sidebar-width) !important;
 }
 
 toolbar#nav-bar {

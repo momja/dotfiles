@@ -1,7 +1,23 @@
+; | key  | meaning                                                |
+; | ---- | ------------------------------------------------------ |
+; | !    | means mandatory                                        |
+; | #    | means optional                                         |
+; | C    | left_command                                           |
+; | T    | left_control                                           |
+; | O    | left_option                                            |
+; | S    | left_shift                                             |
+; | F    | fn                                                     |
+; | Q    | right_command                                          |
+; | W    | right_control                                          |
+; | E    | right_option                                           |
+; | R    | right_shift                                            |
+; | P    | caps_lock                                              |
+; | !!   | mandatory command + control + optional + shift (hyper) |
+; | \#\# | optional any                                           |
+
 {
     :templates {
-        :launch "osascript -e 'tell application \"Alfred 3\" to run trigger \"launch%s\" in workflow \"yqrashawn.workflow.launcher\" with argument \"%s\"'"
-        :slideIn "osascript ~/bin/moveTerminal.scpt"
+        :launch "open -a \"%s\""
     }
 
     :applications {
@@ -14,15 +30,24 @@
         {:des "cmd-p to cmd-l" :rules [[:!Cp :!Cl :firefox]]}
         {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :chrome]]}
         {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :firefox]]}
+        {:des "ctrl-tab to ctrl-j" :rules [[:!Tj :!Ttab :firefox]]}
+        {:des "ctrl-shift-tab to ctrl-k" :rules [[:!Tk :!TStab :firefox]]}
         {:des "cmd-shift-c to fn9" :rules [[:!CSr :f9 :firefox]]}
-        {:des "right-cmd to cmd-opt-ctrl-shift-space"
-         :rules [[:caps_lock :!!left_command nil {:alone :f18}]
-                 [:!!s [:launch "Slack"]]
-                 [:!!f [:launch "Firefox Developer Edition"]]
-                 [:!!t [:slideIn]]]
+        {:des "ctrl-l to opt-period" :rules [[:!Tl :!Operiod :firefox]]}
+        {:des "ctrl-h to opt-comma" :rules [[:!Th :!Ocomma :firefox]]}
+        {:des "caps_lock to cmd-opt-ctrl-shift-space"
+         :rules [[:caps_lock :!QWEright_option]
+                 [:!Ccaps_lock :!Ctab]
+                 [:!QWEs [:launch "Slack"]]
+                 [:!QWEf [:launch "Firefox Developer Edition"]]
+                 [:!QWEe [:launch "IntelliJ IDEA"]]
+                 [:!QWEm [:launch "Music"]]
+                 [:!QWEz [:launch "zoom.us"]]
+                 [:!QWEt [:launch "iTerm"]]]
         }
         {:des "Quit application by pressing command-q twice" 
          :rules [[:!C#Pq [:!Cq ["command-q" 0]] ["command-q" 1]]
                  [:!C#Pq ["command-q" 1] nil {:delayed {:invoked ["command-q" 0] :canceled ["commandq" 0]}}]]}
     ]
 }
+
