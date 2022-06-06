@@ -22,19 +22,27 @@
 
     :applications {
         :chrome ["^com\\.google\\.Chrome$"]
-        :firefox ["^org\\.mozilla\\.firefoxdeveloperedition$"]
+        :firefox-dev ["^org\\.mozilla\\.firefoxdeveloperedition$"]
+        :firefox ["^org\\.mozilla\\.firefox$"]
     }
     
     :main [
         {:des "cmd-p to cmd-l" :rules [[:!Cp :!Cl :chrome]]}
         {:des "cmd-p to cmd-l" :rules [[:!Cp :!Cl :firefox]]}
+        {:des "cmd-p to cmd-l" :rules [[:!Cp :!Cl :firefox-dev]]}
         {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :chrome]]}
         {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :firefox]]}
+        {:des "cmd-l to cmd-p" :rules [[:!Cl :!Cp :firefox-dev]]}
         {:des "ctrl-tab to ctrl-j" :rules [[:!Tj :!Ttab :firefox]]}
         {:des "ctrl-shift-tab to ctrl-k" :rules [[:!Tk :!TStab :firefox]]}
         {:des "cmd-shift-c to fn9" :rules [[:!CSr :f9 :firefox]]}
         {:des "ctrl-l to opt-period" :rules [[:!Tl :!Operiod :firefox]]}
         {:des "ctrl-h to opt-comma" :rules [[:!Th :!Ocomma :firefox]]}
+        {:des "ctrl-tab to ctrl-j" :rules [[:!Tj :!Ttab :firefox-dev]]}
+        {:des "ctrl-shift-tab to ctrl-k" :rules [[:!Tk :!TStab :firefox-dev]]}
+        {:des "cmd-shift-c to fn9" :rules [[:!CSr :f9 :firefox-dev]]}
+        {:des "ctrl-l to opt-period" :rules [[:!Tl :!Operiod :firefox-dev]]}
+        {:des "ctrl-h to opt-comma" :rules [[:!Th :!Ocomma :firefox-dev]]}
         {:des "caps_lock to cmd-opt-ctrl-shift-space"
          :rules [[:caps_lock :!QWEright_option]
                  [:!Ccaps_lock :!Ctab]
@@ -43,7 +51,7 @@
                  [:!QWEe [:launch "IntelliJ IDEA"]]
                  [:!QWEm [:launch "Music"]]
                  [:!QWEz [:launch "zoom.us"]]
-                 [:!QWEt [:launch "iTerm"]]]
+                 [:!QWEt [:launch "kitty"]]]
         }
         {:des "Quit application by pressing command-q twice" 
          :rules [[:!C#Pq [:!Cq ["command-q" 0]] ["command-q" 1]]

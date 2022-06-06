@@ -156,38 +156,6 @@ sys.stdout.write(query)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>#
-# NOTE: Python 2 is deprecated in macOS, and has been removed from macOS 12.3+
-#
-
-import sys
-
-query = sys.argv[1]
-query = '[' + query + ']' + '(https://jira.veevadev.com/browse/' + query + ')'
-
-sys.stdout.write(query)</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>3</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -236,6 +204,38 @@ echo -n $query</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>#
+# NOTE: Python 2 is deprecated in macOS, and has been removed from macOS 12.3+
+#
+
+import sys
+
+query = sys.argv[1]
+query = '[' + query + ']' + '(https://jira.veevadev.com/browse/' + query + ')'
+
+sys.stdout.write(query)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -244,9 +244,9 @@ echo -n $query</string>
 		<key>11797E2C-812A-4CE0-93EA-3E572F13CBB8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>305</integer>
+			<integer>295</integer>
 			<key>ypos</key>
-			<integer>555</integer>
+			<integer>410</integer>
 		</dict>
 		<key>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</key>
 		<dict>

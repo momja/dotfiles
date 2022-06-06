@@ -22,7 +22,18 @@
 			</dict>
 		</array>
 		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4FF2ACA3-06AA-4432-9C4E-DEB3157445D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Maxwell Omdal</string>
@@ -34,6 +45,27 @@
 	<string>Toggle Dark Mode</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>toggle dark modes</string>
+				<key>subtext</key>
+				<string>switches the system theme</string>
+				<key>text</key>
+				<string>Toggle Dark Mode</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -62,23 +94,32 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>toggle dark modes</string>
-				<key>subtext</key>
-				<string>switches the system theme</string>
-				<key>text</key>
-				<string>Toggle Dark Mode</string>
-				<key>withspace</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>MODE=$(defaults read -g AppleInterfaceStyle || command_failed=1)
+echo ahh
+
+if [[ "$MODE" == "Dark" ]]; then
+	kitty +kitten themes --reload-in=all Dracula
+else
+	kitty +kitten themes --reload-in=all Tokyo Night Day
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
+			<string>4FF2ACA3-06AA-4432-9C4E-DEB3157445D3</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -92,10 +133,17 @@ end alfred_script</string>
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
+		<key>4FF2ACA3-06AA-4432-9C4E-DEB3157445D3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>435</integer>
+			<key>ypos</key>
+			<integer>120</integer>
+		</dict>
 		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>235</integer>
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
