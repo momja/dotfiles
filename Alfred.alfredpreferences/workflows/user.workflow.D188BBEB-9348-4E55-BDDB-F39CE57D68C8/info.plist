@@ -48,23 +48,32 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>toggle dark modes</string>
-				<key>subtext</key>
-				<string>switches the system theme</string>
-				<key>text</key>
-				<string>Toggle Dark Mode</string>
-				<key>withspace</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>MODE=$(defaults read -g AppleInterfaceStyle || command_failed=1)
+echo ahh
+
+if [[ "$MODE" == "Dark" ]]; then
+	kitty +kitten themes --reload-in=all Dracula
+else
+	kitty +kitten themes --reload-in=all Solarized Light
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
+			<string>4FF2ACA3-06AA-4432-9C4E-DEB3157445D3</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -94,32 +103,23 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>toggle dark modes</string>
+				<key>subtext</key>
+				<string>switches the system theme</string>
+				<key>text</key>
+				<string>Toggle Dark Mode</string>
+				<key>withspace</key>
 				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>MODE=$(defaults read -g AppleInterfaceStyle || command_failed=1)
-echo ahh
-
-if [[ "$MODE" == "Dark" ]]; then
-	kitty +kitten themes --reload-in=all Dracula
-else
-	kitty +kitten themes --reload-in=all Tokyo Night Day
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>4FF2ACA3-06AA-4432-9C4E-DEB3157445D3</string>
+			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
