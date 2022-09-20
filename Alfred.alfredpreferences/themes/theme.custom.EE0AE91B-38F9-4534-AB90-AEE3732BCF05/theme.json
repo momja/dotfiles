@@ -16,22 +16,22 @@
       },
       "backgroundSelected" : "#464A67FF",
       "text" : {
-        "size" : 24,
+        "size" : 16,
         "colorSelected" : "#EAECFFFF",
         "font" : "System Light",
         "color" : "#030403FF"
       },
       "iconPaddingHorizontal" : 11,
-      "roundness" : 30,
+      "roundness" : 5,
       "paddingVertical" : 9,
-      "iconSize" : 40
+      "iconSize" : 36
     },
     "search" : {
       "backgroundSelected" : "#00B0E933",
       "paddingHorizontal" : 9,
       "spacing" : 10,
       "text" : {
-        "size" : 42,
+        "size" : 33,
         "colorSelected" : "#000000FF",
         "font" : "JetBrains Mono Medium Medium",
         "color" : "#030403FF"
@@ -47,8 +47,8 @@
       "borderPadding" : 0,
       "borderColor" : "#00000000",
       "blur" : 0,
-      "roundness" : 37,
-      "paddingVertical" : 10
+      "roundness" : 5,
+      "paddingVertical" : 11
     },
     "credit" : "Max Omdal",
     "visualEffectMode" : 1,

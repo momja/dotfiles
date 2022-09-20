@@ -54,6 +54,7 @@
                  [:!QWEz [:launch "zoom.us"]]
                  [:!QWEt [:launch "kitty"]]]
         }
+        {:des "Disable caps-lock" :rules [[:##caps_lock :vk_none]]}
         {:des "Quit application by pressing command-q twice" 
          :rules [[:!C#Pq [:!Cq ["command-q" 0]] ["command-q" 1]]
                  [:!C#Pq ["command-q" 1] nil {:delayed {:invoked ["command-q" 0] :canceled ["commandq" 0]}}]]}

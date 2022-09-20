@@ -353,6 +353,20 @@
           "type" : "basic"
         } ]
       }, {
+        "description" : "Disable caps-lock",
+        "manipulators" : [ {
+          "from" : {
+            "key_code" : "caps_lock",
+            "modifiers" : {
+              "optional" : [ "any" ]
+            }
+          },
+          "to" : [ {
+            "key_code" : "vk_none"
+          } ],
+          "type" : "basic"
+        } ]
+      }, {
         "description" : "Quit application by pressing command-q twice",
         "manipulators" : [ {
           "from" : {

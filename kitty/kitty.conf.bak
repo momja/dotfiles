@@ -609,7 +609,6 @@
 
 #: Terminal bell {{{
 
-# enable_audio_bell yes
 
 #: The audio bell. Useful to disable it in environments that require
 #: silence.
@@ -700,14 +699,14 @@
 #: drawn. Note that setting a non-zero window_margin_width overrides
 #: this and causes all borders to be drawn.
 
-# window_margin_width 0
+window_margin_width 1
 
 #: The window margin (in pts) (blank area outside the border). A
 #: single value sets all four sides. Two values set the vertical and
 #: horizontal sides. Three values set top, horizontal and bottom. Four
 #: values set top, right, bottom and left.
 
-# single_window_margin_width -1
+single_window_margin_width -1
 
 #: The window margin to use when only a single window is visible (in
 #: pts). Negative values will cause the value of window_margin_width
@@ -715,7 +714,7 @@
 #: set the vertical and horizontal sides. Three values set top,
 #: horizontal and bottom. Four values set top, right, bottom and left.
 
-# window_padding_width 0
+window_padding_width 3
 
 #: The window padding (in pts) (blank area between the text and the
 #: window border). A single value sets all four sides. Two values set
@@ -745,12 +744,12 @@
 #: The color for the border of inactive windows in which a bell has
 #: occurred.
 
-# inactive_text_alpha 1.0
+inactive_text_alpha 0.75
 
 #: Fade the text in inactive windows by the specified amount (a number
 #: between zero and one, with zero being fully faded).
 
-hide_windw_decorations yes
+hide_window_decorations yes
 
 #: Hide the window decorations (title-bar and window borders) with
 #: yes. On macOS, titlebar-only can be used to only hide the titlebar.
@@ -829,22 +828,22 @@ hide_windw_decorations yes
 
 #: Tab bar {{{
 
-# tab_bar_edge bottom
+tab_bar_edge top 
 
 #: The edge to show the tab bar on, top or bottom.
 
-# tab_bar_margin_width 0.0
+tab_bar_margin_width 1.0
 
 #: The margin to the left and right of the tab bar (in pts).
 
-# tab_bar_margin_height 0.0 0.0
+tab_bar_margin_height 1.0 1.0
 
 #: The margin above and below the tab bar (in pts). The first number
 #: is the margin between the edge of the OS Window and the tab bar.
 #: The second number is the margin between the tab bar and the
 #: contents of the current tab.
 
-# tab_bar_style fade
+tab_bar_style separator 
 
 #: The tab bar style, can be one of:
 
@@ -870,7 +869,7 @@ hide_windw_decorations yes
 #:     for the select_tab action which presents you with a list of tabs and
 #:     allows for easy switching to a tab.
 
-# tab_bar_align left
+tab_bar_align center
 
 #: The horizontal alignment of the tab bar, can be one of: left,
 #: center, right.
@@ -897,7 +896,7 @@ hide_windw_decorations yes
 #: can change the number of cells used by adding/removing entries to
 #: this list.
 
-# tab_separator " ┇"
+tab_separator "  ##  "
 
 #: The separator between tabs in the tab bar when using separator as
 #: the tab_bar_style.
@@ -970,7 +969,7 @@ hide_windw_decorations yes
 
 #: The foreground and background colors.
 
-# background_opacity 1.0
+# background_opacity 0.90
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -1888,13 +1887,12 @@ allow_remote_control yes
 
 #: Next layout
 
-# map kitty_mod+l next_layout
 
 
 #: You can also create shortcuts to switch to specific layouts::
 
 #:     map ctrl+alt+t goto_layout tall
-#:     map ctrl+alt+s goto_layout stack
+#:     map ctrl+alt+f goto_layout stack
 
 #: Similarly, to switch back to the previous layout::
 
@@ -1903,10 +1901,10 @@ allow_remote_control yes
 #: There is also a toggle_layout action that switches to the named
 #: layout or back to the previous layout if in the named layout.
 #: Useful to temporarily "zoom" the active window by switching to the
-#: stack layout::
+stack layout::
 
-#:     map ctrl+alt+z toggle_layout stack
-#: }}}
+    map ctrl+alt+z toggle_layout stack
+}}}
 
 #: Font sizes {{{
 
@@ -2022,7 +2020,8 @@ allow_remote_control yes
 
 #: Toggle maximized
 
-# map kitty_mod+f10 toggle_maximized
+map kitty_mod+f10 toggle_maximized
+map ctrl+f toggle_maximized
 
 #: Toggle macOS secure keyboard entry
 
@@ -2184,7 +2183,7 @@ map ctrl+alt+l launch --location=vsplit --cwd=current
 
 # Rotate the current split, chaging its split axis from vertical to
 # horizontal or vice versa
-map ctrl+shift+r layout_action rotate
+map cmd+shift+r layout_action rotate
 
 # Move the active window in the indicated direction
 map ctrl+shift+h move_window left
@@ -2202,9 +2201,8 @@ map ctrl+j neighboring_window down
 map ctrl+cmd+l next_tab
 map ctrl+cmd+h previous_tab
 
+map cmd+shift+l next_layout
 
+enabled_layouts splits:split;axis=horizontal,stack
 
-
-
-enabled_layouts splits:split_axis=horizontal
-
+enable_audio_bell no

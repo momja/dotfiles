@@ -41,7 +41,7 @@
       "paddingVertical" : 20
     },
     "window" : {
-      "color" : "#272B3DEA",
+      "color" : "#272B3D00",
       "paddingHorizontal" : 0,
       "width" : 780,
       "borderPadding" : 0,
@@ -51,6 +51,7 @@
       "paddingVertical" : 0
     },
     "credit" : "Doug C. Hardester (r3volution11)",
+    "visualEffectMode" : 2,
     "separator" : {
       "color" : "#3A3E5700",
       "thickness" : 2
