@@ -1,0 +1,32 @@
+new_tab vagrant
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/vagrant
+title root@my:~
+launch  
+title …/Documents/workspace/vagrant
+
+
+new_tab vault
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/vault-gradle
+title …/Documents/workspace/vault-gradle
+title …/Documents/workspace/vault-gradle-worktree
+title …/Documents/workspace/vault-gradle
+
+
+new_tab vaultapp-edc
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc
+title …/workspace/vaultapps/vaultapp-edc
+title kitty @ ls > ~/.config/kitty/work_session.json
+launch  /Applications/kitty.app/Contents/MacOS/kitty @ ls
+focus
+title …/workspace/vaultapps/vaultapp-edc
+
+
+new_tab cdm-ui
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/cdm-ui
+title …/Documents/workspace/cdm-ui
+title …/Documents/workspace/cdm-ui-worktree
+title …/Documents/workspace/cdm-ui

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>application</key>
+	<integer>1</integer>
+	<key>custom</key>
+	<string>on alfred_script(q)
+	tell application "kitty" to activate
+	do shell script "/Applications/Kitty.app/Contents/MacOS/kitty @ --to unix:/tmp/mykitty new-window --new-tab"
+	tell application "System Events" to keystroke q
+	tell application "System Events"
+		key code 36 -- enter key
+	end tell
+end alfred_script</string>
+</dict>
 </plist>

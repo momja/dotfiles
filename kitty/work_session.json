@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "is_focused": true,
+    "platform_window_id": 15263,
+    "tabs": [
+      {
+        "active_window_history": [
+          4
+        ],
+        "enabled_layouts": [
+          "splits:split;axis=horizontal",
+          "stack"
+        ],
+        "id": 2,
+        "is_focused": false,
+        "layout": "splits",
+        "layout_opts": {
+          "default_axis_is_horizontal": true
+        },
+        "layout_state": {
+          "pairs": {
+            "bias": 0.5,
+            "horizontal": false,
+            "one": 4,
+            "two": 9
+          }
+        },
+        "title": "vagrant",
+        "windows": [
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 176,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vagrant",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [],
+                "cwd": "/Users/maxwellomdal",
+                "pid": 79439
+              },
+              {
+                "cmdline": [],
+                "cwd": null,
+                "pid": 79431
+              }
+            ],
+            "id": 4,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 7871,
+            "title": "root@my:~"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 176,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vagrant",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vagrant",
+                "pid": 79440
+              }
+            ],
+            "id": 9,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 79440,
+            "title": "\u2026/Documents/workspace/vagrant"
+          }
+        ]
+      },
+      {
+        "active_window_history": [
+          10,
+          13,
+          11
+        ],
+        "enabled_layouts": [
+          "splits:split;axis=horizontal",
+          "stack"
+        ],
+        "id": 6,
+        "is_focused": false,
+        "layout": "splits",
+        "layout_opts": {
+          "default_axis_is_horizontal": true
+        },
+        "layout_state": {
+          "pairs": {
+            "bias": 0.5,
+            "horizontal": false,
+            "one": 10,
+            "two": {
+              "bias": 0.5,
+              "horizontal": true,
+              "one": 11,
+              "two": 13
+            }
+          }
+        },
+        "title": "vault",
+        "windows": [
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 176,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vault-gradle",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vault-gradle",
+                "pid": 79704
+              }
+            ],
+            "id": 10,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 79704,
+            "title": "\u2026/Documents/workspace/vault-gradle"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 87,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vault-gradle-worktree",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vault-gradle-worktree",
+                "pid": 79979
+              }
+            ],
+            "id": 11,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 79979,
+            "title": "\u2026/Documents/workspace/vault-gradle-worktree"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 87,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vault-gradle",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vault-gradle",
+                "pid": 80616
+              }
+            ],
+            "id": 13,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 80616,
+            "title": "\u2026/Documents/workspace/vault-gradle"
+          }
+        ]
+      },
+      {
+        "active_window_history": [
+          14,
+          15,
+          16
+        ],
+        "enabled_layouts": [
+          "splits:split;axis=horizontal",
+          "stack"
+        ],
+        "id": 7,
+        "is_focused": true,
+        "layout": "splits",
+        "layout_opts": {
+          "default_axis_is_horizontal": true
+        },
+        "layout_state": {
+          "pairs": {
+            "bias": 0.5,
+            "horizontal": false,
+            "one": 14,
+            "two": {
+              "bias": 0.5,
+              "horizontal": true,
+              "one": 15,
+              "two": 16
+            }
+          }
+        },
+        "title": "vaultapp-edc",
+        "windows": [
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 176,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc",
+                "pid": 82047
+              }
+            ],
+            "id": 14,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 82047,
+            "title": "\u2026/workspace/vaultapps/vaultapp-edc"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 87,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc-worktree",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "/Applications/kitty.app/Contents/MacOS/kitty",
+                  "@",
+                  "ls"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc-worktree",
+                "pid": 84210
+              }
+            ],
+            "id": 15,
+            "is_focused": true,
+            "is_self": false,
+            "lines": 50,
+            "pid": 82431,
+            "title": "kitty @ ls > ~/.config/kitty/work_session.json"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 87,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc",
+                "pid": 82685
+              }
+            ],
+            "id": 16,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 82685,
+            "title": "\u2026/workspace/vaultapps/vaultapp-edc"
+          }
+        ]
+      },
+      {
+        "active_window_history": [
+          17,
+          19,
+          18
+        ],
+        "enabled_layouts": [
+          "splits:split;axis=horizontal",
+          "stack"
+        ],
+        "id": 8,
+        "is_focused": false,
+        "layout": "splits",
+        "layout_opts": {
+          "default_axis_is_horizontal": true
+        },
+        "layout_state": {
+          "pairs": {
+            "bias": 0.5,
+            "horizontal": false,
+            "one": 17,
+            "two": {
+              "bias": 0.5,
+              "horizontal": true,
+              "one": 18,
+              "two": 19
+            }
+          }
+        },
+        "title": "cdm-ui",
+        "windows": [
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 176,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/cdm-ui",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/cdm-ui",
+                "pid": 82980
+              }
+            ],
+            "id": 17,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 82980,
+            "title": "\u2026/Documents/workspace/cdm-ui"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 87,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/cdm-ui-worktree",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/cdm-ui-worktree",
+                "pid": 83271
+              }
+            ],
+            "id": 18,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 83271,
+            "title": "\u2026/Documents/workspace/cdm-ui-worktree"
+          },
+          {
+            "cmdline": [
+              "-zsh"
+            ],
+            "columns": 87,
+            "cwd": "/Users/maxwellomdal/Documents/workspace/cdm-ui",
+            "env": {},
+            "foreground_processes": [
+              {
+                "cmdline": [
+                  "-zsh"
+                ],
+                "cwd": "/Users/maxwellomdal/Documents/workspace/cdm-ui",
+                "pid": 83536
+              }
+            ],
+            "id": 19,
+            "is_focused": false,
+            "is_self": false,
+            "lines": 50,
+            "pid": 83536,
+            "title": "\u2026/Documents/workspace/cdm-ui"
+          }
+        ]
+      }
+    ],
+    "wm_class": "kitty",
+    "wm_name": "kitty"
+  }
+]
