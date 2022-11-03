@@ -18,6 +18,7 @@
 {
     :templates {
         :launch "open -a \"%s\""
+        :sleep "pmset displaysleepnow"
     }
 
     ; Get bundle id with
@@ -58,6 +59,8 @@
         {:des "Quit application by pressing command-q twice" 
          :rules [[:!C#Pq [:!Cq ["command-q" 0]] ["command-q" 1]]
                  [:!C#Pq ["command-q" 1] nil {:delayed {:invoked ["command-q" 0] :canceled ["commandq" 0]}}]]}
+        {:des "Sleep computer" :rules [[:!QWESs [:sleep ""]]]}
+        {:des "Lock computer" :rules [[:!QWESl :!CTq]]}
     ]
 }
 
