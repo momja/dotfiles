@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.thoughtasylum.dose</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>02247307-7655-4C3D-80CB-4D578001DF1F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1CC9091A-FBA3-477E-BD28-C43AC6346841</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2B6054BD-EF13-4107-A4A0-0583EEA469E5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2B6054BD-EF13-4107-A4A0-0583EEA469E5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7E2FE12A-A94B-4D22-AFBE-E37A8AC042F8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>70AE10CF-D0C8-46E8-8457-6DFA1B3CCE80</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>75EA4C12-717B-45AE-911E-E6BA4D4557BA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7E2FE12A-A94B-4D22-AFBE-E37A8AC042F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E1213CCD-A57B-4C48-B113-588282921839</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>96DE5045-17CF-4DB2-849D-805BD19F035D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BBCE3789-60C5-4826-98F0-F7CED2CF44FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4E229A30-85D7-4753-8A71-D88314810B09</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BBCE3789-60C5-4826-98F0-F7CED2CF44FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3E23143D-E83A-4DE6-B79B-D4B66FA3521E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1CC9091A-FBA3-477E-BD28-C43AC6346841</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>89B52D37-1FC6-4520-A3F8-73D22D6BC41D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D60EF20E-8A34-4836-8F3D-C235CFD82209</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C2F162CA-7F1E-47EA-889E-7DE2237A2A0F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AFFF8A83-DA74-4FF6-97DD-C080A6FFA0BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>310A111C-FCD8-493E-8BF5-C3E307800056</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C0522E2C-B0DF-4C19-B562-6102A8D369FF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>98C0DF4B-2EDC-4F71-8C80-720B95595711</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9EFF2FEF-9D76-485F-B210-253BE26A9D60</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B1832BB1-20C2-44E6-877B-27B05189FF2B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A5EEB6A1-D8DA-41F0-B01F-632DEAF056FB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B1832BB1-20C2-44E6-877B-27B05189FF2B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AFFF8A83-DA74-4FF6-97DD-C080A6FFA0BC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E1ACFB4A-E239-4330-9D8E-8D5AE77A5F4F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B1832BB1-20C2-44E6-877B-27B05189FF2B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>70AE10CF-D0C8-46E8-8457-6DFA1B3CCE80</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BBCE3789-60C5-4826-98F0-F7CED2CF44FC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E1213CCD-A57B-4C48-B113-588282921839</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C1507683-1BF0-4848-8EE7-814562A284CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D60EF20E-8A34-4836-8F3D-C235CFD82209</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2B6054BD-EF13-4107-A4A0-0583EEA469E5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DB5FB7B5-BC5D-420C-8FA6-7AAECDA55E6D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E1213CCD-A57B-4C48-B113-588282921839</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E1ACFB4A-E239-4330-9D8E-8D5AE77A5F4F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Stephen Millard</string>
+	<key>description</key>
+	<string>Controls the use of Amphetamine</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Dose</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dose</string>
+				<key>subtext</key>
+				<string>Turn on/off or on for h(ours)/m(inutes) or until hh:mm</string>
+				<key>text</key>
+				<string>Control Amphetamine</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9EFF2FEF-9D76-485F-B210-253BE26A9D60</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>start</string>
+				<key>replacestring</key>
+				<string>on</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>B1832BB1-20C2-44E6-877B-27B05189FF2B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>stop</string>
+				<key>replacestring</key>
+				<string>off</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>70AE10CF-D0C8-46E8-8457-6DFA1B3CCE80</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>BBCE3789-60C5-4826-98F0-F7CED2CF44FC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<true/>
+				<key>triggerid</key>
+				<string>call_dose</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A5EEB6A1-D8DA-41F0-B01F-632DEAF056FB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>on</string>
+						<key>outputlabel</key>
+						<string>ON</string>
+						<key>uid</key>
+						<string>3E23143D-E83A-4DE6-B79B-D4B66FA3521E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>off</string>
+						<key>outputlabel</key>
+						<string>OFF</string>
+						<key>uid</key>
+						<string>4E229A30-85D7-4753-8A71-D88314810B09</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>.*h.*</string>
+						<key>outputlabel</key>
+						<string>HOURS</string>
+						<key>uid</key>
+						<string>89B52D37-1FC6-4520-A3F8-73D22D6BC41D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>.*m.*</string>
+						<key>outputlabel</key>
+						<string>MINS</string>
+						<key>uid</key>
+						<string>C2F162CA-7F1E-47EA-889E-7DE2237A2A0F</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>\d\d:\d\d</string>
+						<key>outputlabel</key>
+						<string>UNTIL</string>
+						<key>uid</key>
+						<string>310A111C-FCD8-493E-8BF5-C3E307800056</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>96DE5045-17CF-4DB2-849D-805BD19F035D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	-- Get the parameters
+	set theQuery to item 1 of argv
+	set theInterval to (system attribute "interval")
+
+	-- Control Amphetamine
+	tell application "Amphetamine"
+		-- First check for on/off
+		if (theQuery = "on") then
+			start new session
+		else if (theQuery = "off") then
+			end session
+		else
+			-- It isn't on/off, so we need to do mins and seconds
+			if (theInterval = "minutes") then
+				start new session with options {duration:theQuery, interval:minutes, displaySleepAllowed:false}
+			else if (theInterval = "hours") then
+				start new session with options {duration:theQuery, interval:hours, displaySleepAllowed:false}
+			else
+				-- Do Nothing
+			end if
+		end if	end tell
+
+	-- Pass on the input just in case we want to make use of it after
+	return theQuery
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E1213CCD-A57B-4C48-B113-588282921839</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>interval</key>
+					<string>hours</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1CC9091A-FBA3-477E-BD28-C43AC6346841</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>(.*)(h|m).*</string>
+				<key>regexcaseinsensitive</key>
+				<true/>
+				<key>regexmultiline</key>
+				<false/>
+				<key>replacestring</key>
+				<string>$1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>2B6054BD-EF13-4107-A4A0-0583EEA469E5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>7E2FE12A-A94B-4D22-AFBE-E37A8AC042F8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>30 m</string>
+				<key>argumenttype</key>
+				<integer>3</integer>
+				<key>triggerid</key>
+				<string>Dose 30 minutes</string>
+				<key>triggername</key>
+				<string>Dose 30m</string>
+				<key>workflowonly</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.remote</string>
+			<key>uid</key>
+			<string>C1507683-1BF0-4848-8EE7-814562A284CE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>interval</key>
+					<string>minutes</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D60EF20E-8A34-4836-8F3D-C235CFD82209</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>1 h</string>
+				<key>argumenttype</key>
+				<integer>3</integer>
+				<key>triggerid</key>
+				<string>Dose 1 hour</string>
+				<key>triggername</key>
+				<string>Dose 1h</string>
+				<key>workflowonly</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.remote</string>
+			<key>uid</key>
+			<string>75EA4C12-717B-45AE-911E-E6BA4D4557BA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Tink</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>E1ACFB4A-E239-4330-9D8E-8D5AE77A5F4F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>-- Replace one string with another, in string
+on substitute(p_strReplaceIn, p_strFind, p_strReplaceWith)
+	set AppleScript's text item delimiters to p_strFind
+	set astrItems to every text item of p_strReplaceIn
+	set AppleScript's text item delimiters to p_strReplaceWith
+	set strOutput to astrItems as string
+	set AppleScript's text item delimiters to ""
+	return strOutput
+end substitute
+
+-- Return true if it is not past that time today
+on upcoming(p_strTime)
+	set intTimeA to substitute(p_strTime &amp; ":00", ":", "") as number
+	set intTimeB to substitute(text -8 thru -1 of ((current date) as «class isot» as string), ":", "") as number
+	if intTimeA &gt; intTimeB then
+		return true
+	else
+		return false
+	end if
+end upcoming
+
+-- Stay awake until the time passed in as HH:MM
+on awakeUntil(p_strTime)
+	-- Determine the date/time we need to run to
+	set bRes to upcoming(p_strTime)
+	if bRes then
+		-- Upcoming today
+		set strEndTime to (date string of (current date)) &amp; " at " &amp; p_strTime &amp; ":00"
+	else
+		-- Past today, so upcoming tomorrow
+		set strEndTime to (date string of ((current date) + 1 * days)) &amp; " at " &amp; p_strTime &amp; ":00"
+	end if
+	
+	-- Calculate time until this occurs
+	-- We are going to put in a minimum of 1 minute and round up as Amphetamine cannot deal with to the second period specification
+	set intDurationMins to 1 + ((date strEndTime) - (current date)) / 60 div 1
+	
+	-- Trigger 
+	tell application "Amphetamine" to start new session with options {duration:intDurationMins, interval:minutes, displaySleepAllowed:false}
+end awakeUntil
+
+on run argv
+	-- Make the call
+	awakeUntil(item 1 of argv)
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>AFFF8A83-DA74-4FF6-97DD-C080A6FFA0BC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>2 h</string>
+				<key>argumenttype</key>
+				<integer>3</integer>
+				<key>triggerid</key>
+				<string>Dose 2 hours</string>
+				<key>triggername</key>
+				<string>Dose 2h</string>
+				<key>workflowonly</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.remote</string>
+			<key>uid</key>
+			<string>DB5FB7B5-BC5D-420C-8FA6-7AAECDA55E6D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>on</string>
+				<key>argumenttype</key>
+				<integer>3</integer>
+				<key>triggerid</key>
+				<string>Dose On</string>
+				<key>triggername</key>
+				<string>Dose On</string>
+				<key>workflowonly</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.remote</string>
+			<key>uid</key>
+			<string>98C0DF4B-2EDC-4F71-8C80-720B95595711</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Unrecognised Parameter for Dose</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>C0522E2C-B0DF-4C19-B562-6102A8D369FF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>off</string>
+				<key>argumenttype</key>
+				<integer>3</integer>
+				<key>triggerid</key>
+				<string>Dose Off</string>
+				<key>triggername</key>
+				<string>Dose Off</string>
+				<key>workflowonly</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.remote</string>
+			<key>uid</key>
+			<string>02247307-7655-4C3D-80CB-4D578001DF1F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Amphetamine (https://apps.apple.com/gb/app/amphetamine/id937984704?mt=12) is a Mac app that can be used to stop your Mac from sleeping for a period of time (or indefinitely as long as it has power).
+
+This workflow allows you to apply some basic control of Amphetamine from Alfred.  You can set the Mac to stay awake indefinitely, for a fixed number of hours or minutes, or until a particular time. Similarly you can also trigger it to stay off.
+
+A number of presets are also included for use with the Alfred Remote app.
+
+Full documentation for this workflow can be found at http://thoughtasylum.com/alfred/alfred_dose_for_amphetamine/
+
+EXAMPLES
+--------
+- Enable stay awake 
+	dose on | dose start
+- Disable stay awake
+	dose off | dose stop
+- Enable stay awake for various times
+	dose 5m | dose 10 m | dose 90mins | dose 1h | dose 2hours |dose 3hrs
+- Stay awake until a particular time
+	dose 08:45 | dose 20:45</string>
+	<key>uidata</key>
+	<dict>
+		<key>02247307-7655-4C3D-80CB-4D578001DF1F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>740</real>
+		</dict>
+		<key>1CC9091A-FBA3-477E-BD28-C43AC6346841</key>
+		<dict>
+			<key>note</key>
+			<string>Set variable for hours</string>
+			<key>xpos</key>
+			<real>855</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>2B6054BD-EF13-4107-A4A0-0583EEA469E5</key>
+		<dict>
+			<key>note</key>
+			<string>Remove the non-quantity part</string>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>235</real>
+		</dict>
+		<key>70AE10CF-D0C8-46E8-8457-6DFA1B3CCE80</key>
+		<dict>
+			<key>note</key>
+			<string>Transform stop to off</string>
+			<key>xpos</key>
+			<real>365</real>
+			<key>ypos</key>
+			<real>95</real>
+		</dict>
+		<key>75EA4C12-717B-45AE-911E-E6BA4D4557BA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>375</real>
+		</dict>
+		<key>7E2FE12A-A94B-4D22-AFBE-E37A8AC042F8</key>
+		<dict>
+			<key>note</key>
+			<string>Trim whitespace</string>
+			<key>xpos</key>
+			<real>1100</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
+		<key>96DE5045-17CF-4DB2-849D-805BD19F035D</key>
+		<dict>
+			<key>xpos</key>
+			<real>490</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>98C0DF4B-2EDC-4F71-8C80-720B95595711</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>620</real>
+		</dict>
+		<key>9EFF2FEF-9D76-485F-B210-253BE26A9D60</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>A5EEB6A1-D8DA-41F0-B01F-632DEAF056FB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>135</real>
+		</dict>
+		<key>AFFF8A83-DA74-4FF6-97DD-C080A6FFA0BC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>465</real>
+		</dict>
+		<key>B1832BB1-20C2-44E6-877B-27B05189FF2B</key>
+		<dict>
+			<key>note</key>
+			<string>Transform start to on</string>
+			<key>xpos</key>
+			<real>260</real>
+			<key>ypos</key>
+			<real>95</real>
+		</dict>
+		<key>BBCE3789-60C5-4826-98F0-F7CED2CF44FC</key>
+		<dict>
+			<key>note</key>
+			<string>Ensure on/off is lower cased</string>
+			<key>xpos</key>
+			<real>855</real>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+		<key>C0522E2C-B0DF-4C19-B562-6102A8D369FF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>690</real>
+		</dict>
+		<key>C1507683-1BF0-4848-8EE7-814562A284CE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>D60EF20E-8A34-4836-8F3D-C235CFD82209</key>
+		<dict>
+			<key>note</key>
+			<string>Set variable for minutes</string>
+			<key>xpos</key>
+			<real>855</real>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>DB5FB7B5-BC5D-420C-8FA6-7AAECDA55E6D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
+		<key>E1213CCD-A57B-4C48-B113-588282921839</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>1290</real>
+			<key>ypos</key>
+			<real>210</real>
+		</dict>
+		<key>E1ACFB4A-E239-4330-9D8E-8D5AE77A5F4F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>1515</real>
+			<key>ypos</key>
+			<real>465</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.1.1</string>
+	<key>webaddress</key>
+	<string>https://thoughtasylum.com</string>
+</dict>
+</plist>

@@ -14,6 +14,8 @@
 ; | P    | caps_lock                                              |
 ; | !!   | mandatory command + control + optional + shift (hyper) |
 ; | \#\# | optional any                                           |
+;
+; For a full list of keycodes, see https://github.com/yqrashawn/GokuRakuJoudo/blob/master/src/karabiner_configurator/keys_info.clj
 
 {
     :templates {
@@ -27,7 +29,7 @@
         :chrome ["^com\\.google\\.Chrome$"]
         :firefox ["^org\\.mozilla\\.firefox(developeredition)?$"]
         :slack ["^com\\.tinyspeck\\.slackmacgap$"]
-        :kitty ["i^net\\.kovidgoyal\\.kitty$"]
+        :kitty ["^net\\.kovidgoyal\\.kitty$"]
     }
     
     :main [
@@ -44,7 +46,8 @@
         {:des "ctrl-h to opt-comma" :rules [[:!Th :!Ocomma :firefox]]}
         {:des "ctrl-tab to ctrl-j" :rules [[:!Tj :!Ttab :firefox]]}
         {:des "slack open sidebar" :rules [[:!OTz :!CRd :slack]]}
-        {:des "zsh autosuggestions accept" :rules [[:!Creturn_or_enter :!Cspacebar :kitty]]}
+        {:des "zsh autosuggestions accept" :rules [[:!Sreturn_or_enter :!Tspacebar :kitty]]}
+        {:des "hide all non-active windows and center" :rules [[:!QWEsemicolon [:!COh :!QWEc]]]}
         {:des "caps_lock to cmd-opt-ctrl-shift-space"
          :rules [[:caps_lock :!QWEright_option]
                  [:!Ccaps_lock :!Ctab]
