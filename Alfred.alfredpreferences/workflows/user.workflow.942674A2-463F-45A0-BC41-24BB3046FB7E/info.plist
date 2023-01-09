@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1254BE68-D8BB-4F9E-82E9-0F21E29E93D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A6B2BF5-5090-4DDC-B776-553C831C4F2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</key>
 		<array>
 			<dict>
@@ -51,6 +64,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>EC6278DA-A7F4-493D-B061-EA0A38B8756F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>646934AC-1E8A-4533-9D63-396DF7762C8C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -70,37 +93,131 @@
 				<false/>
 			</dict>
 		</array>
+		<key>EC6278DA-A7F4-493D-B061-EA0A38B8756F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1254BE68-D8BB-4F9E-82E9-0F21E29E93D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string>Link Issue to Jira by ID</string>
+	<string>Go to Jira by ID</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Link to Jira</string>
+	<string>Go to Jira</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>2A6B2BF5-5090-4DDC-B776-553C831C4F2A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
 				<key>keyword</key>
-				<string>jira</string>
+				<string>open</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>query=$1
+
+echo -n $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
-				<key>text</key>
+				<key>title</key>
 				<string></string>
+				<key>type</key>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>C7532F72-49CC-4961-BAF0-F15D51AF8F64</string>
+			<string>EC6278DA-A7F4-493D-B061-EA0A38B8756F</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>#
+# NOTE: Python 2 is deprecated in macOS, and has been removed from macOS 12.3+
+#
+
+import sys
+
+query = sys.argv[1]
+query = 'https://jira.veevadev.com/browse/' + query
+
+sys.stdout.write(query)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1254BE68-D8BB-4F9E-82E9-0F21E29E93D8</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -137,6 +254,27 @@ sys.stdout.write(query)</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jira</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C7532F72-49CC-4961-BAF0-F15D51AF8F64</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
@@ -152,6 +290,38 @@ sys.stdout.write(query)</string>
 			<string>CCB5AADA-5084-4322-B9E5-E676EDFCC4E5</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>#
+# NOTE: Python 2 is deprecated in macOS, and has been removed from macOS 12.3+
+#
+
+import sys
+
+query = sys.argv[1]
+query = '[' + query + ']' + '(https://jira.veevadev.com/browse/' + query + ')'
+
+sys.stdout.write(query)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -204,38 +374,6 @@ echo -n $query</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>#
-# NOTE: Python 2 is deprecated in macOS, and has been removed from macOS 12.3+
-#
-
-import sys
-
-query = sys.argv[1]
-query = '[' + query + ']' + '(https://jira.veevadev.com/browse/' + query + ')'
-
-sys.stdout.write(query)</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>3</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -248,19 +386,33 @@ sys.stdout.write(query)</string>
 			<key>ypos</key>
 			<integer>410</integer>
 		</dict>
+		<key>1254BE68-D8BB-4F9E-82E9-0F21E29E93D8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
+		<key>2A6B2BF5-5090-4DDC-B776-553C831C4F2A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>575</integer>
+			<key>ypos</key>
+			<integer>115</integer>
+		</dict>
 		<key>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>445</integer>
 			<key>ypos</key>
-			<integer>470</integer>
+			<integer>410</integer>
 		</dict>
 		<key>646934AC-1E8A-4533-9D63-396DF7762C8C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>295</integer>
+			<integer>300</integer>
 			<key>ypos</key>
-			<integer>295</integer>
+			<integer>275</integer>
 		</dict>
 		<key>C7532F72-49CC-4961-BAF0-F15D51AF8F64</key>
 		<dict>
@@ -272,9 +424,16 @@ sys.stdout.write(query)</string>
 		<key>CCB5AADA-5084-4322-B9E5-E676EDFCC4E5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>690</integer>
+			<integer>645</integer>
 			<key>ypos</key>
-			<integer>375</integer>
+			<integer>350</integer>
+		</dict>
+		<key>EC6278DA-A7F4-493D-B061-EA0A38B8756F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>285</integer>
+			<key>ypos</key>
+			<integer>115</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

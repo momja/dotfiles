@@ -24,14 +24,14 @@
       "iconPaddingHorizontal" : 11,
       "roundness" : 5,
       "paddingVertical" : 9,
-      "iconSize" : 36
+      "iconSize" : 51
     },
     "search" : {
       "backgroundSelected" : "#00B0E933",
       "paddingHorizontal" : 9,
       "spacing" : 10,
       "text" : {
-        "size" : 33,
+        "size" : 47,
         "colorSelected" : "#000000FF",
         "font" : "JetBrains Mono Medium Medium",
         "color" : "#030403FF"
@@ -42,13 +42,13 @@
     },
     "window" : {
       "color" : "#F7F8F9F4",
-      "paddingHorizontal" : 10,
-      "width" : 530,
+      "paddingHorizontal" : 9,
+      "width" : 780,
       "borderPadding" : 0,
       "borderColor" : "#00000000",
       "blur" : 0,
       "roundness" : 5,
-      "paddingVertical" : 11
+      "paddingVertical" : 15
     },
     "credit" : "Max Omdal",
     "visualEffectMode" : 1,

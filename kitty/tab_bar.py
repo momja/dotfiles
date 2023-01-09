@@ -1,3 +1,6 @@
+# Cool custom tabs for kitty terminal
+# Max Omdal
+
 from kitty.fast_data_types import Screen
 from kitty.tab_bar import DrawData, ExtraData, TabBarData, draw_title
 

@@ -1,32 +1,38 @@
 new_tab vagrant
 layout splits
 cd /Users/maxwellomdal/Documents/workspace/vagrant
-title root@my:~
-launch  
-title …/Documents/workspace/vagrant
-
+launch  zsh 
+launch --location=hsplit zsh
+launch --location=vsplit zsh
 
 new_tab vault
-layout splits
 cd /Users/maxwellomdal/Documents/workspace/vault-gradle
-title …/Documents/workspace/vault-gradle
-title …/Documents/workspace/vault-gradle-worktree
-title …/Documents/workspace/vault-gradle
-
+focus
+launch  zsh
+cd /Users/maxwellomdal/Documents/workspace/vault-gradle-worktree
+launch --location=hsplit zsh
+cd /Users/maxwellomdal/Documents/workspace/vault-gradle-worktree
+launch --location=vsplit zsh
 
 new_tab vaultapp-edc
 layout splits
 cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc
-title …/workspace/vaultapps/vaultapp-edc
-title kitty @ ls > ~/.config/kitty/work_session.json
-launch  /Applications/kitty.app/Contents/MacOS/kitty @ ls
-focus
-title …/workspace/vaultapps/vaultapp-edc
-
+launch  zsh
+cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc-worktree
+launch --location=hsplit zsh
+cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc-worktree
+launch --location=vsplit zsh
 
 new_tab cdm-ui
 layout splits
 cd /Users/maxwellomdal/Documents/workspace/cdm-ui
-title …/Documents/workspace/cdm-ui
-title …/Documents/workspace/cdm-ui-worktree
-title …/Documents/workspace/cdm-ui
+launch  zsh
+cd /Users/maxwellomdal/Documents/workspace/cdm-ui-worktree
+launch --location=hsplit zsh
+cd /Users/maxwellomdal/Documents/workspace/cdm-ui-worktree
+launch --location=vsplit zsh
+
+new_tab scratchpad
+layout splits
+cd /Users/maxwellomdal/.config
+launch  zsh
