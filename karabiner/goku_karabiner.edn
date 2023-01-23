@@ -64,6 +64,7 @@
                  [:!C#Pq ["command-q" 1] nil {:delayed {:invoked ["command-q" 0] :canceled ["commandq" 0]}}]]}
         {:des "Sleep computer" :rules [[:!QWESs [:sleep ""]]]}
         {:des "Lock computer" :rules [[:!QWESl :!CTq]]}
+        {:des "Alfred reprogram default" :rules [[:!QWEa :!Ospacebar]]}
     ]
 }
 

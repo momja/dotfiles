@@ -4,3 +4,4 @@ gtk-2.0
 yarn
 nvim/bundle
 karabiner/karabiner.json
+karabiner/automatic_backups/

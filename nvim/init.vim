@@ -19,6 +19,14 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 noremap <Down> <Nop>
 noremap <Up> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+inoremap <Down> <Nop>
+inoremap <Up> <Nop>
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+vnoremap <Down> <Nop>
+vnoremap <Up> <Nop>
 
 " Use different cursors for different modes
 " *This is specifically configured for tmux. if you aren't using tmux, this shouldn't be used
@@ -37,9 +45,8 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
 set ttyfast
 
 " Add newline without leaving view mode
-set timeoutlen=100
-nmap oo o<Esc>k
-nmap OO O<Esc>j
+" nnoremap <>  o<Esc>k
+" nnoremap OO O<Esc>j
 
 " Use spacebar as command prefix
 nnoremap <SPACE> :
@@ -49,3 +56,21 @@ set noerrorbells
 
 " Configuration for fzf-lua
 nnoremap <c-P> <cmd>lua require('fzf-lua').files()<CR>
+
+" Configuration for kitty and vim navigation integration
+let g:kitty_navigator_no_mappings = 1
+
+map <silent> <C-h> :KittyNavigateLeft<cr>
+map <silent> <C-j> :KittyNavigateDown<cr>
+map <silent> <C-k> :KittyNavigateUp<cr>
+map <silent> <C-l> :KittyNavigateRight<cr>
+
+" Ignore Case
+set ignorecase
+
+" Working with markdown files
+nnoremap = Ebgf
+
+packadd! dracula
+syntax enable
+colorscheme dracula
