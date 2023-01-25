@@ -8,19 +8,6 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>11797E2C-812A-4CE0-93EA-3E572F13CBB8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>1254BE68-D8BB-4F9E-82E9-0F21E29E93D8</key>
 		<array>
 			<dict>
@@ -60,6 +47,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A8B2BC28-D788-492F-8568-C9BDEA0E1848</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C7532F72-49CC-4961-BAF0-F15D51AF8F64</key>
 		<array>
 			<dict>
@@ -75,16 +75,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>646934AC-1E8A-4533-9D63-396DF7762C8C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>11797E2C-812A-4CE0-93EA-3E572F13CBB8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -152,7 +142,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>open</string>
+				<string>jopen</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -222,6 +212,27 @@ sys.stdout.write(query)</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jira</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Get Jira Link</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C7532F72-49CC-4961-BAF0-F15D51AF8F64</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -254,29 +265,8 @@ sys.stdout.write(query)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>jira</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string></string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C7532F72-49CC-4961-BAF0-F15D51AF8F64</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
-				<true/>
+				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
 				<key>ignoredynamicplaceholders</key>
@@ -290,6 +280,27 @@ sys.stdout.write(query)</string>
 			<string>CCB5AADA-5084-4322-B9E5-E676EDFCC4E5</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>jira-md</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Get Jira Link as Markdown</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A8B2BC28-D788-492F-8568-C9BDEA0E1848</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -323,69 +334,11 @@ sys.stdout.write(query)</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>md</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>query=$1
-
-echo -n $query</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>as markdown</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>11797E2C-812A-4CE0-93EA-3E572F13CBB8</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>11797E2C-812A-4CE0-93EA-3E572F13CBB8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>295</integer>
-			<key>ypos</key>
-			<integer>410</integer>
-		</dict>
 		<key>1254BE68-D8BB-4F9E-82E9-0F21E29E93D8</key>
 		<dict>
 			<key>xpos</key>
@@ -403,35 +356,42 @@ echo -n $query</string>
 		<key>4E7114AF-DC2C-4859-A41A-BCDBA848BD05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>275</integer>
 			<key>ypos</key>
-			<integer>410</integer>
+			<integer>395</integer>
 		</dict>
 		<key>646934AC-1E8A-4533-9D63-396DF7762C8C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
 			<integer>275</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+		<key>A8B2BC28-D788-492F-8568-C9BDEA0E1848</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>395</integer>
 		</dict>
 		<key>C7532F72-49CC-4961-BAF0-F15D51AF8F64</key>
 		<dict>
 			<key>xpos</key>
-			<integer>45</integer>
+			<integer>55</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>190</integer>
 		</dict>
 		<key>CCB5AADA-5084-4322-B9E5-E676EDFCC4E5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>645</integer>
+			<integer>650</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>330</integer>
 		</dict>
 		<key>EC6278DA-A7F4-493D-B061-EA0A38B8756F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>270</integer>
 			<key>ypos</key>
 			<integer>115</integer>
 		</dict>

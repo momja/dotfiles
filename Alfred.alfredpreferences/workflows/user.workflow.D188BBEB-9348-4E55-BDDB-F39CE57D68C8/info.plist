@@ -92,7 +92,6 @@ end alfred_script</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>MODE=$(defaults read -g AppleInterfaceStyle || command_failed=1)
-echo ahh
 
 if [[ "$MODE" == "Dark" ]]; then
 	kitty +kitten themes --reload-in=all Dracula

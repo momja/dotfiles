@@ -110,32 +110,8 @@
 			<key>utf8</key>
 			<true/>
 		</dict>
-		<key>DA171C44-2401-4FC1-AF1E-16173F84AC96</key>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyword</key>
-			<string>main</string>
-			<key>text</key>
-			<string>Main Vault</string>
-			<key>url</key>
-			<string>obsidian://?vault=main</string>
-			<key>utf8</key>
-			<true/>
-		</dict>
-		<key>F0EE081F-816D-4A56-82A6-DF936198BF61</key>
-		<dict>
-			<key>enabled</key>
-			<true/>
-			<key>keyword</key>
-			<string>work</string>
-			<key>text</key>
-			<string>Work Vault</string>
-			<key>url</key>
-			<string>obsidian://?vault=work</string>
-			<key>utf8</key>
-			<true/>
-		</dict>
 	</dict>
+	<key>onlyShowEnabledInPrefs</key>
+	<true/>
 </dict>
 </plist>

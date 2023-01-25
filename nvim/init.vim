@@ -74,3 +74,27 @@ nnoremap = Ebgf
 packadd! dracula
 syntax enable
 colorscheme dracula
+
+" Markdown related changes
+" Set syntax to markdown by default when there is no extension
+autocmd BufNewFile,BufRead * 
+    \ if expand('%:t') !~ '\.' |
+    \   if &ft =~# '^\%(conf\|modula2\)$' |
+    \       set ft=markdown |
+    \   else |
+    \       setf markdown |
+    \   endif |
+    \ endif
+
+set conceallevel=2
+set autoindent
+
+" Rebuild the notes directory
+function RebuildTableOfContents()
+    1,$d
+    read !figlet "NOTES CONTENT"
+    read !rg --heading --no-column --no-line-number --max-count=1 . * 
+endfunction
+
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'text']
+
