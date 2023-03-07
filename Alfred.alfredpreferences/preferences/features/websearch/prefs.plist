@@ -17,6 +17,17 @@
 			<key>utf8</key>
 			<true/>
 		</dict>
+		<key>2B860689-BA00-476E-B6FB-10B28214B477</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>mastodon</string>
+			<key>text</key>
+			<string>Mastodon</string>
+			<key>url</key>
+			<string>https://fosstodon.org</string>
+		</dict>
 		<key>2CB5311B-197C-407E-A507-FFA6B874E2F9</key>
 		<dict>
 			<key>enabled</key>
@@ -96,6 +107,17 @@
 			<string>https://jira.veevadev.com/secure/RapidBoard.jspa?rapidView=517&amp;view=detail&amp;selectedIssue=VDC-75295&amp;quickFilter=19323</string>
 			<key>utf8</key>
 			<true/>
+		</dict>
+		<key>C3CD2ACB-2624-4E0D-BC4C-50D8322571C2</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>rss</string>
+			<key>text</key>
+			<string>Fresh RSS</string>
+			<key>url</key>
+			<string>http://hermes.local/i/</string>
 		</dict>
 		<key>C85B4D63-93D1-4302-A164-5F88D7D31F3F</key>
 		<dict>

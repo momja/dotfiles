@@ -1,2 +1,3 @@
 https://lazybear.io/index.xml
-https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml "~New York Times"
+https://rpilocator.com/feed/ "~RPI Locator"

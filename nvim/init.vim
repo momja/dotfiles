@@ -27,10 +27,7 @@ noremap <Down> <Nop>
 noremap <Up> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
-inoremap <Down> <Nop>
-inoremap <Up> <Nop>
-vnoremap <Left> <Nop>
-vnoremap <Right> <Nop>
+inoremap <Down> <Nop> inoremap <Up> <Nop> vnoremap <Left> <Nop> vnoremap <Right> <Nop>
 vnoremap <Down> <Nop>
 vnoremap <Up> <Nop>
 
@@ -58,11 +55,10 @@ set visualbell
 set noerrorbells
 
 " Configuration for fzf-lua
-nnoremap <c-P> <cmd>lua require('fzf-lua').files()<CR>
+" nnoremap <c-P> <cmd>lua require('fzf-lua').files()<CR>
 
 " KITTY
 " -----
-
 " For terminal/kitty on macOS
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
@@ -123,3 +119,27 @@ endfunction
 " ------------
 " END MARKDOWN
 
+" LUA
+" ---
+lua require("init")
+" -------
+" END LUA
+
+" FUGITIVE
+" --------
+command GW w | Git add % | q
+
+function! s:ToggleBlame()
+    if &l:filetype ==# 'fugitiveblame'
+        close
+    else
+        :G blame
+    endif
+endfunction
+
+nnoremap <C-b> :call <SID>ToggleBlame()<CR>
+
+" nnoremap <C-b> :G blame<CR>
+
+" ------------
+" END FUGITIVE
