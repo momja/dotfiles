@@ -1,0 +1,38 @@
+new_tab vagrant
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/vagrant
+launch  zsh 
+launch --title="vagrant-1" --location=hsplit zsh
+launch --title="vagrant-2" --location=vsplit zsh
+
+new_tab vault
+cd /Users/maxwellomdal/Documents/workspace/vault-gradle
+focus
+launch --title="vault-1" zsh
+cd /Users/maxwellomdal/Documents/workspace/vault-gradle-worktree
+launch --title="vault-worktree-1" --location=hsplit zsh
+cd /Users/maxwellomdal/Documents/workspace/vault-gradle-worktree
+launch --title="vault-worktree-2" --location=vsplit zsh
+
+new_tab vaultapp-edc
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc
+launch --title="vaultapp-edc-1" zsh
+cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc-worktree
+launch --title="vaultapp-edc-worktree-1" --location=hsplit zsh
+cd /Users/maxwellomdal/Documents/workspace/vaultapps/vaultapp-edc-worktree
+launch --title="vaultapp-edc-worktree-2" --location=vsplit zsh
+
+new_tab cdm-ui
+layout splits
+cd /Users/maxwellomdal/Documents/workspace/cdm-ui
+launch --title="cdm-ui-1" zsh
+cd /Users/maxwellomdal/Documents/workspace/cdm-ui-worktree
+launch --title="cdm-ui-worktree-1" --location=hsplit zsh
+cd /Users/maxwellomdal/Documents/workspace/cdm-ui-worktree
+launch --title="cdm-ui-worktree-2" --location=vsplit zsh
+
+new_tab scratchpad
+layout splits
+cd /Users/maxwellomdal/.config
+launch --title="scratchpad-1" zsh
