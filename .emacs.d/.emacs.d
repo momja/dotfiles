@@ -1,1 +1,0 @@
-/Users/maxwellomdal/.config/.emacs.d

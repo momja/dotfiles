@@ -1,0 +1,51 @@
+{
+  "configure-viewer-toolbar-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAY6AAABqQAACKsAAAPIAAAGOgAAAakAAAirAAADyAAAAAAAAAAACgAAAAY6AAABqQAACKsAAAPI"
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "Condition": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "demand paging": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "sepia-dark",
+    "hide_tooltips": null,
+    "read_mode": "flow",
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "show_actions_toolbar": true
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Anderson, Thomas",
+          "Dahlin, Michael"
+        ],
+        "key": "/home/mjomdal/Calibre Library/Anderson, Thomas/Operating Systems Principles and Practice, Volume 3_ Memory Management (5)/Operating Systems Principles and Practice, - Anderson, Thomas.epub",
+        "pathtoebook": "/home/mjomdal/Calibre Library/Anderson, Thomas/Operating Systems Principles and Practice, Volume 3_ Memory Management (5)/Operating Systems Principles and Practice, - Anderson, Thomas.epub",
+        "timestamp": "2021-04-01T11:49:51.175Z",
+        "title": "Operating Systems Principles and Practice, Volume 3: Memory Management"
+      },
+      {
+        "authors": [
+          "Anderson, Thomas",
+          "Dahlin, Michael"
+        ],
+        "key": "/home/mjomdal/Calibre Library/Anderson, Thomas/Operating Systems Principles and Practice, Volume 2_ Concurrency (4)/Operating Systems Principles and Practice, - Anderson, Thomas.epub",
+        "pathtoebook": "/home/mjomdal/Calibre Library/Anderson, Thomas/Operating Systems Principles and Practice, Volume 2_ Concurrency (4)/Operating Systems Principles and Practice, - Anderson, Thomas.epub",
+        "timestamp": "2021-03-09T20:06:18.099Z",
+        "title": "Operating Systems Principles and Practice, Volume 2: Concurrency"
+      }
+    ]
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
+}

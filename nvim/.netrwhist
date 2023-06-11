@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/mjomdal/.config/xinit'
+let g:netrw_dirhist_4='/home/mjomdal/.config'
+let g:netrw_dirhist_3='/home/mjomdal/Downloads/release'
+let g:netrw_dirhist_2='/home/mjomdal/.config/xinit'
+let g:netrw_dirhist_1='/home/mjomdal/.config'
+let g:netrw_dirhist_0='/home/mjomdal/College/CSCI_5103/project1'
+let g:netrw_dirhist_9='/home/mjomdal/.config'
+let g:netrw_dirhist_8='/home/mjomdal/.nv'
+let g:netrw_dirhist_7='/home/mjomdal/.oh-my-zsh'
+let g:netrw_dirhist_6='/home/mjomdal'

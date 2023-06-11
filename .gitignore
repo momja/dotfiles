@@ -1,9 +1,20 @@
 .DS_Store
 configstore
 gtk-2.0
+gtk-3.0
 yarn
 nvim/bundle
 karabiner/karabiner.json
 karabiner/automatic_backups/
 kitty/current-theme.conf
 kitty/kitty.conf.bak
+darktable
+JetBrains
+Nextcloud
+autostart
+OFL.txt
+Code
+
+# Takes up to much space
+UnityHub
+unity3d
