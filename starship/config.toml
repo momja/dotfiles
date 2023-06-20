@@ -11,8 +11,8 @@ format = "[ $path]($style) "
 style = "blue bold"
 
 [character]
-success_symbol = "\n[﬌](purple)"
-error_symbol = "\n[﬌](red)"
+success_symbol = "\n[󰘍](purple)"
+error_symbol = "\n[󰘍](red)"
 vicmd_symbol = "\n[❮](green)"
 
 [git_branch]
