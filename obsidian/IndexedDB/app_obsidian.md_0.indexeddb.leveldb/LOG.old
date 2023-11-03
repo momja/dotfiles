@@ -1,2 +1,3 @@
-2022/02/20-09:45:23.607 add Creating DB /home/mjomdal/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
-2022/02/20-09:45:23.616 add Reusing MANIFEST /home/mjomdal/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/25-22:38:19.752 5a33 Reusing MANIFEST /home/mjomdal/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/25-22:38:19.752 5a33 Recovering log #4
+2023/10/25-22:38:19.755 5a33 Reusing old log /home/mjomdal/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000004.log 

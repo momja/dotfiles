@@ -1,0 +1,1716 @@
+[06/13/23, 19:46:07:018] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[06/13/23, 19:46:07:019] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[06/13/23, 19:46:07:019] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[06/13/23, 19:46:07:047] info: Could not load previous electron version 
+[06/13/23, 19:46:07:177] info: Store: persist/PERSIST 
+[06/13/23, 19:46:07:178] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[06/13/23, 19:46:07:179] info: Migrating from redux-persist@v4 
+[06/13/23, 19:46:07:180] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[06/13/23, 19:46:07:180] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[06/13/23, 19:46:07:180] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 6
+}
+[06/13/23, 19:46:07:181] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "bootFragments": []
+}
+[06/13/23, 19:46:07:182] info: persistUuid:: Generated uuid 
+{
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b"
+}
+[06/13/23, 19:46:07:182] info: persistUuid:: Uuid persisted successfully 
+[06/13/23, 19:46:07:183] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.12.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[06/13/23, 19:46:07:188] info: Starting Sentry 
+[06/13/23, 19:46:07:207] warn: Failed to install protocol handler for slack:// links 
+[06/13/23, 19:46:07:211] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:312:12)\n    at ChildProcess.emit (events.js:315:20)\n    at ChildProcess.EventEmitter.emit (domain.js:483:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:483:12)\n    at Pipe.<anonymous> (net.js:674:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: line 1: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":312,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:312:12)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":443,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:443:11)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":12,\"lineNumber\":674,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:674:12)\"}]"
+}
+[06/13/23, 19:46:07:213] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[06/13/23, 19:46:07:214] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "bootFragments": [],
+  "appVersion": "4.12.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 3,
+    "build": 7
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b",
+  "sessionId": "MWY2NGFkMGQtNTExNC01ZGMyLTgxM2ItMDBlMGI2ZTZiNjdiXzE2ODY3MDM1NjcxODI=",
+  "distribution": "DDL",
+  "isUpdateSupported": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[06/13/23, 19:46:07:231] info: initializeApplicationEpic: Welcome to Slack 4.12.0 x64 
+[06/13/23, 19:46:07:233] info: AutoLoginEpic: Checking for autologin. 
+[06/13/23, 19:46:07:318] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[06/13/23, 19:46:07:319] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[06/13/23, 19:46:07:319] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[06/13/23, 19:46:07:327] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/mjomdal/Downloads",
+  "hasRunApp": true
+}
+[06/13/23, 19:46:07:329] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 16,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 3800X 8-Core Processor",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 2200,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8066,
+        "driverVendor": "Nvidia",
+        "driverVersion": "530.41.03",
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[06/13/23, 19:46:07:332] info: Store: TOKEN_FILE_PROCESSED 
+[06/13/23, 19:46:07:333] info: AutoLoginEpic: Processing token file for autologin. 
+[06/13/23, 19:46:07:333] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[06/13/23, 19:46:07:333] info: AutoLoginEpic: Setting default sign-in team to null 
+[06/13/23, 19:46:07:333] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[06/13/23, 19:46:07:334] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[06/13/23, 19:46:07:351] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[06/13/23, 19:46:07:353] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 420,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[06/13/23, 19:46:07:356] info: Watching for keyboard layout changes 
+[06/13/23, 19:46:07:358] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 173
+}
+[06/13/23, 19:46:07:358] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[06/13/23, 19:46:07:359] info: registerLifeCycleEvents: Registering webContents:1 
+[06/13/23, 19:46:07:360] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[06/13/23, 19:46:07:477] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'render-process-gone' took 117 ms 
+[06/13/23, 19:46:07:477] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[06/13/23, 19:46:07:478] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[06/13/23, 19:46:07:578] warn: forceReload: cannot find main window's webcontents 
+[06/13/23, 19:46:07:700] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false,
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[06/13/23, 19:46:07:703] warn: MainWindowEpics: Could not load url 
+{
+  "error": {
+    "stack": "Error: ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'\n    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\n    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\n    at Object.emit (events.js:327:22)\n    at Object.EventEmitter.emit (domain.js:483:12)\n    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)",
+    "message": "ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'",
+    "errno": -2,
+    "code": "ERR_FAILED",
+    "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+  },
+  "stackFrameString": "[{\"columnNumber\":1493,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"rejectAndCleanup\",\"source\":\"    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\"},{\"columnNumber\":1868,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"Object.stopLoadingListener\",\"source\":\"    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\"},{\"columnNumber\":22,\"lineNumber\":327,\"fileName\":\"events.js\",\"functionName\":\"Object.emit\",\"source\":\"    at Object.emit (events.js:327:22)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Object.EventEmitter.emit\",\"source\":\"    at Object.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":1760691,\"lineNumber\":2,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"Object.emitter.emit\",\"source\":\"    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)\"}]"
+}
+[06/13/23, 19:46:07:703] info: registerLifeCycleEvents: webContents:1 from 'render-process-gone' to 'render-process-gone' took 226 ms 
+[06/13/23, 19:46:07:704] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[06/13/23, 19:46:07:705] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[06/13/23, 19:46:07:805] warn: forceReload: cannot find main window's webcontents 
+[06/13/23, 19:46:07:975] info: Finished download of spellcheck dictionary 
+{
+  "code": "en-US"
+}
+[06/13/23, 19:46:07:976] info: Spellcheck dictionary initialized 
+{
+  "code": "en-US"
+}
+[06/13/23, 19:46:08:360] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[06/13/23, 19:46:08:362] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[06/13/23, 19:47:28:615] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[06/13/23, 19:47:28:616] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[06/13/23, 19:47:28:616] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[06/13/23, 19:47:28:737] info: Store: persist/PERSIST 
+[06/13/23, 19:47:28:738] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[06/13/23, 19:47:28:739] info: Migrating from redux-persist@v4 
+[06/13/23, 19:47:28:739] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[06/13/23, 19:47:28:740] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[06/13/23, 19:47:28:740] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 6
+}
+[06/13/23, 19:47:28:741] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "bootFragments": []
+}
+[06/13/23, 19:47:28:742] info: getInstanceUuid:: Read existing uuid from persisted location 
+{
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b"
+}
+[06/13/23, 19:47:28:742] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.12.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[06/13/23, 19:47:28:748] info: Starting Sentry 
+[06/13/23, 19:47:28:766] warn: Failed to install protocol handler for slack:// links 
+[06/13/23, 19:47:28:769] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:312:12)\n    at ChildProcess.emit (events.js:315:20)\n    at ChildProcess.EventEmitter.emit (domain.js:483:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:483:12)\n    at Pipe.<anonymous> (net.js:674:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: line 1: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":312,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:312:12)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":443,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:443:11)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":12,\"lineNumber\":674,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:674:12)\"}]"
+}
+[06/13/23, 19:47:28:771] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[06/13/23, 19:47:28:772] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "bootFragments": [],
+  "appVersion": "4.12.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 3,
+    "build": 7
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b",
+  "sessionId": "MWY2NGFkMGQtNTExNC01ZGMyLTgxM2ItMDBlMGI2ZTZiNjdiXzE2ODY3MDM2NDg3NDI=",
+  "distribution": "DDL",
+  "isUpdateSupported": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[06/13/23, 19:47:28:776] info: initializeApplicationEpic: Welcome to Slack 4.12.0 x64 
+[06/13/23, 19:47:28:777] info: AutoLoginEpic: Checking for autologin. 
+[06/13/23, 19:47:28:880] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[06/13/23, 19:47:28:881] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[06/13/23, 19:47:28:881] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[06/13/23, 19:47:28:885] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/mjomdal/Downloads",
+  "hasRunApp": true
+}
+[06/13/23, 19:47:28:886] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 16,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 3800X 8-Core Processor",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 1963,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8066,
+        "driverVendor": "Nvidia",
+        "driverVersion": "530.41.03",
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[06/13/23, 19:47:28:890] info: Store: TOKEN_FILE_PROCESSED 
+[06/13/23, 19:47:28:890] info: AutoLoginEpic: Processing token file for autologin. 
+[06/13/23, 19:47:28:890] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[06/13/23, 19:47:28:890] info: AutoLoginEpic: Setting default sign-in team to null 
+[06/13/23, 19:47:28:890] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[06/13/23, 19:47:28:891] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[06/13/23, 19:47:28:896] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[06/13/23, 19:47:28:897] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 420,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[06/13/23, 19:47:28:900] info: Watching for keyboard layout changes 
+[06/13/23, 19:47:28:901] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 158
+}
+[06/13/23, 19:47:28:901] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[06/13/23, 19:47:28:903] info: registerLifeCycleEvents: Registering webContents:1 
+[06/13/23, 19:47:28:903] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[06/13/23, 19:47:29:027] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'render-process-gone' took 124 ms 
+[06/13/23, 19:47:29:028] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[06/13/23, 19:47:29:028] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[06/13/23, 19:47:29:129] warn: forceReload: cannot find main window's webcontents 
+[06/13/23, 19:47:29:237] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false,
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[06/13/23, 19:47:29:239] warn: MainWindowEpics: Could not load url 
+{
+  "error": {
+    "stack": "Error: ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'\n    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\n    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\n    at Object.emit (events.js:327:22)\n    at Object.EventEmitter.emit (domain.js:483:12)\n    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)",
+    "message": "ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'",
+    "errno": -2,
+    "code": "ERR_FAILED",
+    "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+  },
+  "stackFrameString": "[{\"columnNumber\":1493,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"rejectAndCleanup\",\"source\":\"    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\"},{\"columnNumber\":1868,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"Object.stopLoadingListener\",\"source\":\"    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\"},{\"columnNumber\":22,\"lineNumber\":327,\"fileName\":\"events.js\",\"functionName\":\"Object.emit\",\"source\":\"    at Object.emit (events.js:327:22)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Object.EventEmitter.emit\",\"source\":\"    at Object.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":1760691,\"lineNumber\":2,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"Object.emitter.emit\",\"source\":\"    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)\"}]"
+}
+[06/13/23, 19:47:29:239] info: registerLifeCycleEvents: webContents:1 from 'render-process-gone' to 'render-process-gone' took 212 ms 
+[06/13/23, 19:47:29:239] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[06/13/23, 19:47:29:240] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[06/13/23, 19:47:29:340] warn: forceReload: cannot find main window's webcontents 
+[06/13/23, 19:47:29:903] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[06/13/23, 19:47:29:905] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/29/23, 11:25:31:899] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[07/29/23, 11:25:31:900] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[07/29/23, 11:25:31:900] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[07/29/23, 11:25:32:046] info: Store: persist/PERSIST 
+[07/29/23, 11:25:32:048] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[07/29/23, 11:25:32:049] info: Migrating from redux-persist@v4 
+[07/29/23, 11:25:32:049] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[07/29/23, 11:25:32:049] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[07/29/23, 11:25:32:050] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 7
+}
+[07/29/23, 11:25:32:050] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": []
+}
+[07/29/23, 11:25:32:052] info: getInstanceUuid:: Read existing uuid from persisted location 
+{
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b"
+}
+[07/29/23, 11:25:32:052] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.12.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[07/29/23, 11:25:32:059] info: Starting Sentry 
+[07/29/23, 11:25:32:078] warn: Failed to install protocol handler for slack:// links 
+[07/29/23, 11:25:32:082] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:312:12)\n    at ChildProcess.emit (events.js:315:20)\n    at ChildProcess.EventEmitter.emit (domain.js:483:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:483:12)\n    at Pipe.<anonymous> (net.js:674:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: line 1: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":312,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:312:12)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":443,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:443:11)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":12,\"lineNumber\":674,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:674:12)\"}]"
+}
+[07/29/23, 11:25:32:084] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[07/29/23, 11:25:32:085] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": [],
+  "appVersion": "4.12.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 3,
+    "build": 7
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b",
+  "sessionId": "MWY2NGFkMGQtNTExNC01ZGMyLTgxM2ItMDBlMGI2ZTZiNjdiXzE2OTA2NDc5MzIwNTI=",
+  "distribution": "DDL",
+  "isUpdateSupported": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[07/29/23, 11:25:32:103] info: initializeApplicationEpic: Welcome to Slack 4.12.0 x64 
+[07/29/23, 11:25:32:105] info: AutoLoginEpic: Checking for autologin. 
+[07/29/23, 11:25:32:184] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[07/29/23, 11:25:32:184] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[07/29/23, 11:25:32:184] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/29/23, 11:25:32:191] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/mjomdal/Downloads",
+  "hasRunApp": true
+}
+[07/29/23, 11:25:32:193] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 16,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 3800X 8-Core Processor",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 4340,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8066,
+        "driverVendor": "Nvidia",
+        "driverVersion": "530.41.03",
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[07/29/23, 11:25:32:198] info: Store: TOKEN_FILE_PROCESSED 
+[07/29/23, 11:25:32:198] info: AutoLoginEpic: Processing token file for autologin. 
+[07/29/23, 11:25:32:199] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[07/29/23, 11:25:32:199] info: AutoLoginEpic: Setting default sign-in team to null 
+[07/29/23, 11:25:32:199] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[07/29/23, 11:25:32:199] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[07/29/23, 11:25:32:215] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[07/29/23, 11:25:32:216] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 420,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[07/29/23, 11:25:32:219] info: Watching for keyboard layout changes 
+[07/29/23, 11:25:32:221] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 167
+}
+[07/29/23, 11:25:32:221] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[07/29/23, 11:25:32:223] info: registerLifeCycleEvents: Registering webContents:1 
+[07/29/23, 11:25:32:223] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[07/29/23, 11:25:32:362] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'render-process-gone' took 138 ms 
+[07/29/23, 11:25:32:362] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[07/29/23, 11:25:32:362] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[07/29/23, 11:25:32:463] warn: forceReload: cannot find main window's webcontents 
+[07/29/23, 11:25:32:999] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false,
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/29/23, 11:25:33:001] warn: MainWindowEpics: Could not load url 
+{
+  "error": {
+    "stack": "Error: ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'\n    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\n    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\n    at Object.emit (events.js:327:22)\n    at Object.EventEmitter.emit (domain.js:483:12)\n    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)",
+    "message": "ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'",
+    "errno": -2,
+    "code": "ERR_FAILED",
+    "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+  },
+  "stackFrameString": "[{\"columnNumber\":1493,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"rejectAndCleanup\",\"source\":\"    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\"},{\"columnNumber\":1868,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"Object.stopLoadingListener\",\"source\":\"    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\"},{\"columnNumber\":22,\"lineNumber\":327,\"fileName\":\"events.js\",\"functionName\":\"Object.emit\",\"source\":\"    at Object.emit (events.js:327:22)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Object.EventEmitter.emit\",\"source\":\"    at Object.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":1760691,\"lineNumber\":2,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"Object.emitter.emit\",\"source\":\"    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)\"}]"
+}
+[07/29/23, 11:25:33:001] info: registerLifeCycleEvents: webContents:1 from 'render-process-gone' to 'render-process-gone' took 640 ms 
+[07/29/23, 11:25:33:001] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[07/29/23, 11:25:33:002] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[07/29/23, 11:25:33:102] warn: forceReload: cannot find main window's webcontents 
+[07/29/23, 11:25:33:224] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/29/23, 11:25:33:225] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/11/23, 10:55:19:916] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[08/11/23, 10:55:19:917] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[08/11/23, 10:55:19:917] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[08/11/23, 10:55:20:070] info: Store: persist/PERSIST 
+[08/11/23, 10:55:20:071] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[08/11/23, 10:55:20:072] info: Migrating from redux-persist@v4 
+[08/11/23, 10:55:20:073] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[08/11/23, 10:55:20:073] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[08/11/23, 10:55:20:073] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 6
+}
+[08/11/23, 10:55:20:074] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": []
+}
+[08/11/23, 10:55:20:075] info: getInstanceUuid:: Read existing uuid from persisted location 
+{
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b"
+}
+[08/11/23, 10:55:20:075] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.12.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[08/11/23, 10:55:20:081] info: Starting Sentry 
+[08/11/23, 10:55:20:096] warn: Failed to install protocol handler for slack:// links 
+[08/11/23, 10:55:20:100] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:312:12)\n    at ChildProcess.emit (events.js:315:20)\n    at ChildProcess.EventEmitter.emit (domain.js:483:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:483:12)\n    at Pipe.<anonymous> (net.js:674:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: line 1: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":312,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:312:12)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":443,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:443:11)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":12,\"lineNumber\":674,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:674:12)\"}]"
+}
+[08/11/23, 10:55:20:103] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[08/11/23, 10:55:20:103] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": [],
+  "appVersion": "4.12.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 3,
+    "build": 7
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b",
+  "sessionId": "MWY2NGFkMGQtNTExNC01ZGMyLTgxM2ItMDBlMGI2ZTZiNjdiXzE2OTE3NjkzMjAwNzU=",
+  "distribution": "DDL",
+  "isUpdateSupported": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[08/11/23, 10:55:20:121] info: initializeApplicationEpic: Welcome to Slack 4.12.0 x64 
+[08/11/23, 10:55:20:123] info: AutoLoginEpic: Checking for autologin. 
+[08/11/23, 10:55:20:211] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[08/11/23, 10:55:20:211] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[08/11/23, 10:55:20:211] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[08/11/23, 10:55:20:217] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/mjomdal/Downloads",
+  "hasRunApp": true
+}
+[08/11/23, 10:55:20:219] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 16,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 3800X 8-Core Processor",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 4198,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8066,
+        "driverVendor": "Nvidia",
+        "driverVersion": "530.41.03",
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[08/11/23, 10:55:20:223] info: Store: TOKEN_FILE_PROCESSED 
+[08/11/23, 10:55:20:223] info: AutoLoginEpic: Processing token file for autologin. 
+[08/11/23, 10:55:20:223] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[08/11/23, 10:55:20:223] info: AutoLoginEpic: Setting default sign-in team to null 
+[08/11/23, 10:55:20:224] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[08/11/23, 10:55:20:224] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[08/11/23, 10:55:20:242] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[08/11/23, 10:55:20:244] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 420,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[08/11/23, 10:55:20:246] info: Watching for keyboard layout changes 
+[08/11/23, 10:55:20:248] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 171
+}
+[08/11/23, 10:55:20:249] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[08/11/23, 10:55:20:250] info: registerLifeCycleEvents: Registering webContents:1 
+[08/11/23, 10:55:20:250] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[08/11/23, 10:55:20:389] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'render-process-gone' took 139 ms 
+[08/11/23, 10:55:20:390] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[08/11/23, 10:55:20:390] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[08/11/23, 10:55:20:491] warn: forceReload: cannot find main window's webcontents 
+[08/11/23, 10:55:20:593] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false,
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[08/11/23, 10:55:20:594] warn: MainWindowEpics: Could not load url 
+{
+  "error": {
+    "stack": "Error: ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'\n    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\n    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\n    at Object.emit (events.js:327:22)\n    at Object.EventEmitter.emit (domain.js:483:12)\n    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)",
+    "message": "ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'",
+    "errno": -2,
+    "code": "ERR_FAILED",
+    "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+  },
+  "stackFrameString": "[{\"columnNumber\":1493,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"rejectAndCleanup\",\"source\":\"    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\"},{\"columnNumber\":1868,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"Object.stopLoadingListener\",\"source\":\"    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\"},{\"columnNumber\":22,\"lineNumber\":327,\"fileName\":\"events.js\",\"functionName\":\"Object.emit\",\"source\":\"    at Object.emit (events.js:327:22)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Object.EventEmitter.emit\",\"source\":\"    at Object.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":1760691,\"lineNumber\":2,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"Object.emitter.emit\",\"source\":\"    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)\"}]"
+}
+[08/11/23, 10:55:20:595] info: registerLifeCycleEvents: webContents:1 from 'render-process-gone' to 'render-process-gone' took 206 ms 
+[08/11/23, 10:55:20:595] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[08/11/23, 10:55:20:596] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[08/11/23, 10:55:20:696] warn: forceReload: cannot find main window's webcontents 
+[08/11/23, 10:55:21:251] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[08/11/23, 10:55:21:252] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/05/23, 16:26:40:529] info: 
+╔═════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.4.12-arch1-1 on x64      ║
+╚═════════════════════════════════════════════════════╝ 
+[09/05/23, 16:26:40:530] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[09/05/23, 16:26:40:530] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[09/05/23, 16:26:40:674] info: Store: persist/PERSIST 
+[09/05/23, 16:26:40:675] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[09/05/23, 16:26:40:676] info: Migrating from redux-persist@v4 
+[09/05/23, 16:26:40:677] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[09/05/23, 16:26:40:677] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[09/05/23, 16:26:40:678] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 6
+}
+[09/05/23, 16:26:40:678] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": []
+}
+[09/05/23, 16:26:40:679] info: getInstanceUuid:: Read existing uuid from persisted location 
+{
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b"
+}
+[09/05/23, 16:26:40:679] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.12.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[09/05/23, 16:26:40:686] info: Starting Sentry 
+[09/05/23, 16:26:40:708] warn: Failed to install protocol handler for slack:// links 
+[09/05/23, 16:26:40:712] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:312:12)\n    at ChildProcess.emit (events.js:315:20)\n    at ChildProcess.EventEmitter.emit (domain.js:483:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:483:12)\n    at Pipe.<anonymous> (net.js:674:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: line 1: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":312,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:312:12)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":443,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:443:11)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":12,\"lineNumber\":674,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:674:12)\"}]"
+}
+[09/05/23, 16:26:40:715] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[09/05/23, 16:26:40:716] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": [],
+  "appVersion": "4.12.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 4,
+    "build": 12
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b",
+  "sessionId": "MWY2NGFkMGQtNTExNC01ZGMyLTgxM2ItMDBlMGI2ZTZiNjdiXzE2OTM5NDkyMDA2Nzk=",
+  "distribution": "DDL",
+  "isUpdateSupported": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[09/05/23, 16:26:40:735] info: initializeApplicationEpic: Welcome to Slack 4.12.0 x64 
+[09/05/23, 16:26:40:737] info: AutoLoginEpic: Checking for autologin. 
+[09/05/23, 16:26:40:853] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[09/05/23, 16:26:40:854] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[09/05/23, 16:26:40:855] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[09/05/23, 16:26:40:863] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/mjomdal/Downloads",
+  "hasRunApp": true
+}
+[09/05/23, 16:26:40:866] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 16,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 3800X 8-Core Processor",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 2327,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8066,
+        "driverVendor": "Nvidia",
+        "driverVersion": "535.104.05",
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[09/05/23, 16:26:40:875] info: Store: TOKEN_FILE_PROCESSED 
+[09/05/23, 16:26:40:876] info: AutoLoginEpic: Processing token file for autologin. 
+[09/05/23, 16:26:40:877] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[09/05/23, 16:26:40:877] info: AutoLoginEpic: Setting default sign-in team to null 
+[09/05/23, 16:26:40:878] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[09/05/23, 16:26:40:878] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[09/05/23, 16:26:40:897] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[09/05/23, 16:26:40:898] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 420,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[09/05/23, 16:26:40:900] info: Watching for keyboard layout changes 
+[09/05/23, 16:26:40:902] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 221
+}
+[09/05/23, 16:26:40:903] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[09/05/23, 16:26:40:904] info: registerLifeCycleEvents: Registering webContents:1 
+[09/05/23, 16:26:40:904] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[09/05/23, 16:26:41:051] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'render-process-gone' took 147 ms 
+[09/05/23, 16:26:41:052] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[09/05/23, 16:26:41:053] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[09/05/23, 16:26:41:154] warn: forceReload: cannot find main window's webcontents 
+[09/05/23, 16:26:41:253] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false,
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/05/23, 16:26:41:254] warn: MainWindowEpics: Could not load url 
+{
+  "error": {
+    "stack": "Error: ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'\n    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\n    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\n    at Object.emit (events.js:327:22)\n    at Object.EventEmitter.emit (domain.js:483:12)\n    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)",
+    "message": "ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'",
+    "errno": -2,
+    "code": "ERR_FAILED",
+    "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+  },
+  "stackFrameString": "[{\"columnNumber\":1493,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"rejectAndCleanup\",\"source\":\"    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\"},{\"columnNumber\":1868,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"Object.stopLoadingListener\",\"source\":\"    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\"},{\"columnNumber\":22,\"lineNumber\":327,\"fileName\":\"events.js\",\"functionName\":\"Object.emit\",\"source\":\"    at Object.emit (events.js:327:22)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Object.EventEmitter.emit\",\"source\":\"    at Object.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":1760691,\"lineNumber\":2,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"Object.emitter.emit\",\"source\":\"    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)\"}]"
+}
+[09/05/23, 16:26:41:255] info: registerLifeCycleEvents: webContents:1 from 'render-process-gone' to 'render-process-gone' took 204 ms 
+[09/05/23, 16:26:41:255] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[09/05/23, 16:26:41:255] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[09/05/23, 16:26:41:356] warn: forceReload: cannot find main window's webcontents 
+[09/05/23, 16:26:41:904] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/05/23, 16:26:41:905] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/05/23, 16:26:42:195] info: secondInstanceEpic: Otherwise signaled, foregrounding 
+[09/05/23, 16:26:42:195] info: Store: FOREGROUND_APP 
+[09/05/23, 16:26:44:048] info: 
+╔═════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.4.12-arch1-1 on x64      ║
+╚═════════════════════════════════════════════════════╝ 
+[09/05/23, 16:26:44:049] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[09/05/23, 16:26:44:049] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[09/05/23, 16:26:44:155] info: Store: persist/PERSIST 
+[09/05/23, 16:26:44:156] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[09/05/23, 16:26:44:157] info: Migrating from redux-persist@v4 
+[09/05/23, 16:26:44:157] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[09/05/23, 16:26:44:157] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[09/05/23, 16:26:44:158] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 7
+}
+[09/05/23, 16:26:44:159] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": []
+}
+[09/05/23, 16:26:44:160] info: getInstanceUuid:: Read existing uuid from persisted location 
+{
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b"
+}
+[09/05/23, 16:26:44:160] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.12.0",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[09/05/23, 16:26:44:167] info: Starting Sentry 
+[09/05/23, 16:26:44:187] warn: Failed to install protocol handler for slack:// links 
+[09/05/23, 16:26:44:190] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:312:12)\n    at ChildProcess.emit (events.js:315:20)\n    at ChildProcess.EventEmitter.emit (domain.js:483:12)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Socket.<anonymous> (internal/child_process.js:443:11)\n    at Socket.emit (events.js:315:20)\n    at Socket.EventEmitter.emit (domain.js:483:12)\n    at Pipe.<anonymous> (net.js:674:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: line 1: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: line 1: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":312,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:312:12)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":16,\"lineNumber\":1021,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:1021:16)\"},{\"columnNumber\":11,\"lineNumber\":443,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.<anonymous>\",\"source\":\"    at Socket.<anonymous> (internal/child_process.js:443:11)\"},{\"columnNumber\":20,\"lineNumber\":315,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:315:20)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":12,\"lineNumber\":674,\"fileName\":\"net.js\",\"functionName\":\"Pipe.<anonymous>\",\"source\":\"    at Pipe.<anonymous> (net.js:674:12)\"}]"
+}
+[09/05/23, 16:26:44:196] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Arch Linux"
+  }
+}
+[09/05/23, 16:26:44:196] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "bootFragments": [],
+  "appVersion": "4.12.0",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 4,
+    "build": 12
+  },
+  "releaseChannel": "prod",
+  "developerMenuOverride": false,
+  "uuid": "1f64ad0d-5114-5dc2-813b-00e0b6e6b67b",
+  "sessionId": "MWY2NGFkMGQtNTExNC01ZGMyLTgxM2ItMDBlMGI2ZTZiNjdiXzE2OTM5NDkyMDQxNjA=",
+  "distribution": "DDL",
+  "isUpdateSupported": false,
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": ""
+  }
+}
+[09/05/23, 16:26:44:201] info: initializeApplicationEpic: Welcome to Slack 4.12.0 x64 
+[09/05/23, 16:26:44:203] info: AutoLoginEpic: Checking for autologin. 
+[09/05/23, 16:26:44:314] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[09/05/23, 16:26:44:315] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[09/05/23, 16:26:44:315] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[09/05/23, 16:26:44:318] info: Store: UPDATE_SETTINGS 
+{
+  "useHwAcceleration": true,
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/mjomdal/Downloads",
+  "hasRunApp": true
+}
+[09/05/23, 16:26:44:320] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 16,
+    "gpuFeatures": {
+      "2d_canvas": "disabled_software",
+      "gpu_compositing": "disabled_software",
+      "multiple_raster_threads": "enabled_on",
+      "oop_rasterization": "disabled_off",
+      "opengl": "disabled_off",
+      "protected_video_decode": "disabled_off",
+      "rasterization": "disabled_software",
+      "skia_renderer": "enabled_on",
+      "video_decode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "disabled_off",
+      "webgl2": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 7 3800X 8-Core Processor",
+    "cpu_logical_core": 16,
+    "cpu_clock_speed": 2282,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8066,
+        "driverVendor": "Nvidia",
+        "driverVersion": "535.104.05",
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown"
+  }
+}
+[09/05/23, 16:26:44:322] info: Store: TOKEN_FILE_PROCESSED 
+[09/05/23, 16:26:44:323] info: AutoLoginEpic: Processing token file for autologin. 
+[09/05/23, 16:26:44:323] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[09/05/23, 16:26:44:323] info: AutoLoginEpic: Setting default sign-in team to null 
+[09/05/23, 16:26:44:323] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[09/05/23, 16:26:44:323] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[09/05/23, 16:26:44:329] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[09/05/23, 16:26:44:330] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 880,
+      "y": 420,
+      "width": 800,
+      "height": 600
+    }
+  }
+}
+[09/05/23, 16:26:44:332] info: Watching for keyboard layout changes 
+[09/05/23, 16:26:44:334] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 173
+}
+[09/05/23, 16:26:44:335] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[09/05/23, 16:26:44:336] info: registerLifeCycleEvents: Registering webContents:1 
+[09/05/23, 16:26:44:336] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[09/05/23, 16:26:44:493] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'render-process-gone' took 157 ms 
+[09/05/23, 16:26:44:493] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[09/05/23, 16:26:44:494] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[09/05/23, 16:26:44:596] warn: forceReload: cannot find main window's webcontents 
+[09/05/23, 16:26:44:686] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false,
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/05/23, 16:26:44:688] warn: MainWindowEpics: Could not load url 
+{
+  "error": {
+    "stack": "Error: ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'\n    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\n    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\n    at Object.emit (events.js:327:22)\n    at Object.EventEmitter.emit (domain.js:483:12)\n    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)",
+    "message": "ERR_FAILED (-2) loading 'https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient'",
+    "errno": -2,
+    "code": "ERR_FAILED",
+    "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient"
+  },
+  "stackFrameString": "[{\"columnNumber\":1493,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"rejectAndCleanup\",\"source\":\"    at rejectAndCleanup (electron/js2c/browser_init.js:205:1493)\"},{\"columnNumber\":1868,\"lineNumber\":205,\"fileName\":\"electron/js2c/browser_init.js\",\"functionName\":\"Object.stopLoadingListener\",\"source\":\"    at Object.stopLoadingListener (electron/js2c/browser_init.js:205:1868)\"},{\"columnNumber\":22,\"lineNumber\":327,\"fileName\":\"events.js\",\"functionName\":\"Object.emit\",\"source\":\"    at Object.emit (events.js:327:22)\"},{\"columnNumber\":12,\"lineNumber\":483,\"fileName\":\"domain.js\",\"functionName\":\"Object.EventEmitter.emit\",\"source\":\"    at Object.EventEmitter.emit (domain.js:483:12)\"},{\"columnNumber\":1760691,\"lineNumber\":2,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"Object.emitter.emit\",\"source\":\"    at Object.emitter.emit (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:2:1760691)\"}]"
+}
+[09/05/23, 16:26:44:688] info: registerLifeCycleEvents: webContents:1 from 'render-process-gone' to 'render-process-gone' took 195 ms 
+[09/05/23, 16:26:44:688] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "render-process-gone",
+  "reason": "crashed"
+}
+[09/05/23, 16:26:44:689] error: Renderer crashed or unable to launch 
+{
+  "reason": "crashed"
+}
+[09/05/23, 16:26:44:788] warn: forceReload: cannot find main window's webcontents 
+[09/05/23, 16:26:45:015] info: secondInstanceEpic: Otherwise signaled, foregrounding 
+[09/05/23, 16:26:45:016] info: Store: FOREGROUND_APP 
+[09/05/23, 16:26:45:337] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/05/23, 16:26:45:338] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 768,
+      "y": 288,
+      "width": 1024,
+      "height": 864
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}

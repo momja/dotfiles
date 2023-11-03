@@ -48,15 +48,15 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # A more modern dmenu replacement is rofi:
-bindsym Control+space exec --no-startup-id "rofi -modi drun,calc,run -show drun -show-icons"
+bindsym $mod+space exec --no-startup-id "rofi -show combi -combi-modes drun,p:rofi-power-menu -modes combi -show-icons"
 bindsym $mod+c exec --no-startup-id "rofi -show calc -no-show-match -no-sort -no-bold > /dev/null"
-bindsym $mod+Shift+s exec --no-startup-id "rofi -show p -modi p:$HOME/.local/bin/rofi-power-menu"
+#bindsym $mod+Shift+s exec --no-startup-id "rofi -show p -modi p:$HOME/.local/bin/rofi-power-menu" -font "Symbols Nerd Font Mono 16"
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 #bindsym $mod+Left focus left
@@ -65,10 +65,10 @@ bindsym $mod+semicolon focus right
 #bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -77,10 +77,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+#bindsym $mod+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+#bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+Shift+f fullscreen toggle
@@ -94,7 +94,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Control+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -174,20 +174,21 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Disable Window Titlebars
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 3
+smart_borders on
 
 # Configure Gaps
 gaps inner 10
 gaps outer 5
 
 # Open Firefox
-bindsym $mod+f exec firefox
+#bindsym $mod+f exec firefox
 
 # Open Thunderbird
-bindsym $mod+t exec thunderbird
+#bindsym $mod+t exec thunderbird
 
 # Open Slack
-bindsym $mod+s exec slack
+#bindsym $mod+s exec slack
 
 # Make current focus a scratchpad
 bindsym $mod+Shift+minus move scratchpad
@@ -201,4 +202,10 @@ bindsym $mod+bracketright workspace next
 bindsym $mod+bracketleft workspace prev
 
 # auto-tiling
-exec_always --no-startup-id autotiling
+exec_always --no-startup-id autotiling &
+
+# status bar
+exec_always --no-startup-id ~/.config/polybar/launch.sh &
+
+# Smart Popups during fullscreen mode
+popup_during_fullscreen smart

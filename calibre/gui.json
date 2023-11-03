@@ -128,9 +128,111 @@
     ]
   ],
   "default_author_link": null,
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 682,
+      "width": 734,
+      "x": 647,
+      "y": 50
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 676,
+      "width": 728,
+      "x": 650,
+      "y": 53
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 676,
+      "width": 728,
+      "x": 650,
+      "y": 53
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAKHAAAAMgAABWQAAALbAAACigAAADUAAAVhAAAC2AAAAAAAAAAACgAAAAKKAAAANQAABWEAAALY"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL U2520D",
+      "name": "HDMI-0",
+      "serial": "2VT4923",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 857,
+      "y": 420
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 857,
+      "y": 420
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 857,
+      "y": 420
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAANZAAABpAAABvoAAARzAAADWQAAAaQAAAb6AAAEcwAAAAAAAAAACgAAAANZAAABpAAABvoAAARz"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL U2520D",
+      "name": "HDMI-0",
+      "serial": "2VT4923",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/mjomdal/Calibre Library": 7
+    "/home/mjomdal/Calibre Library": 11
   },
   "preferences dialog geometry": {
     "__class__": "bytearray",

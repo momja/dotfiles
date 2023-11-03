@@ -17,3 +17,48 @@
 2023-06-11 12:48:06 Success.
 2023-06-11 12:48:06 Latest version is 1.3.5
 2023-06-11 12:48:06 Update failed: minimum version mismatch. App must be manually updated
+2023-06-19 23:33:35 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-06-19 23:33:35 Checking for update using Github
+2023-06-19 23:33:36 Success.
+2023-06-19 23:33:36 Latest version is 1.3.5
+2023-06-19 23:33:36 App is up to date.
+2023-06-19 23:33:51 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-06-19 23:33:51 Checking for update using Github
+2023-06-19 23:33:51 Success.
+2023-06-19 23:33:51 Latest version is 1.3.5
+2023-06-19 23:33:51 App is up to date.
+2023-09-27 03:12:36 Loading main app package /usr/lib/obsidian/obsidian.asar
+2023-09-27 03:12:36 Checking for update using Github
+2023-09-27 03:12:37 Success.
+2023-09-27 03:12:37 Latest version is 1.4.14
+2023-09-27 03:12:37 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.14/obsidian-1.4.14.asar.gz
+2023-09-27 03:12:37 Verifying hash & signature. Size= 8393737
+2023-09-27 03:12:37 Saving file
+2023-09-27 03:12:37 Update complete.
+2023-10-08 23:20:20 Loading updated app package /home/mjomdal/.config/obsidian/obsidian-1.4.14.asar
+2023-10-08 23:20:21 Checking for update using Github
+2023-10-08 23:20:21 Success.
+2023-10-08 23:20:21 Latest version is 1.4.14
+2023-10-08 23:20:21 App is up to date.
+2023-10-09 00:20:20 Checking for update using Github
+2023-10-09 00:20:21 Success.
+2023-10-09 00:20:21 Latest version is 1.4.14
+2023-10-09 00:20:21 App is up to date.
+2023-10-10 05:36:40 Loading updated app package /home/mjomdal/.config/obsidian/obsidian-1.4.14.asar
+2023-10-10 05:36:41 Checking for update using Github
+2023-10-10 05:36:41 Success.
+2023-10-10 05:36:41 Latest version is 1.4.14
+2023-10-10 05:36:41 App is up to date.
+2023-10-26 05:38:18 Loading updated app package /home/mjomdal/.config/obsidian/obsidian-1.4.14.asar
+2023-10-26 05:38:19 Checking for update using Github
+2023-10-26 05:38:19 Success.
+2023-10-26 05:38:19 Latest version is 1.4.16
+2023-10-26 05:38:19 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.16/obsidian-1.4.16.asar.gz
+2023-10-26 05:38:19 Verifying hash & signature. Size= 8394471
+2023-10-26 05:38:19 Saving file
+2023-10-26 05:38:19 Update complete.
+2023-10-29 16:27:34 Loading updated app package /home/mjomdal/.config/obsidian/obsidian-1.4.16.asar
+2023-10-29 16:27:34 Checking for update using Github
+2023-10-29 16:27:34 Success.
+2023-10-29 16:27:34 Latest version is 1.4.16
+2023-10-29 16:27:34 App is up to date.

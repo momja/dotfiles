@@ -1,0 +1,132 @@
+[06/13/23, 19:46:07:318] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[06/13/23, 19:46:07:318] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[06/13/23, 19:46:07:318] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[06/13/23, 19:47:28:880] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[06/13/23, 19:47:28:880] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[06/13/23, 19:47:28:880] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[07/29/23, 11:25:32:183] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[07/29/23, 11:25:32:183] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[07/29/23, 11:25:32:183] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[08/11/23, 10:55:20:210] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.3.7-arch1-1 on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[08/11/23, 10:55:20:210] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[08/11/23, 10:55:20:210] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[09/05/23, 16:26:40:852] info: 
+╔═════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.4.12-arch1-1 on x64      ║
+╚═════════════════════════════════════════════════════╝ 
+[09/05/23, 16:26:40:852] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[09/05/23, 16:26:40:853] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}
+[09/05/23, 16:26:44:314] info: 
+╔═════════════════════════════════════════════════════╗
+║      Slack 4.12.0, linux 6.4.12-arch1-1 on x64      ║
+╚═════════════════════════════════════════════════════╝ 
+[09/05/23, 16:26:44:314] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-service-worker-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 2
+}
+[09/05/23, 16:26:44:314] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.12.0",
+  "PACKAGE_MANIFEST.commit": "7fc7cdb",
+  "PACKAGE_MANIFEST.branch": "HEAD",
+  "PACKAGE_MANIFEST.useSentry": true
+}

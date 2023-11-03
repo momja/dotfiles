@@ -1,0 +1,4 @@
+Hackerspaces
+Noisebridge
+hackerspace
+checksum_v1 = 56337fab2d4032051d645b7bcae0ec79

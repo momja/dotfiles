@@ -3,6 +3,112 @@
     "__class__": "bytearray",
     "__value__": "AdnQywADAAAAAAY6AAABqQAACKsAAAPIAAAGOgAAAakAAAirAAADyAAAAAAAAAAACgAAAAY6AAABqQAACKsAAAPI"
   },
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 271,
+      "width": 623,
+      "x": 1922,
+      "y": 15
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 271,
+      "width": 623,
+      "x": 1922,
+      "y": 15
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 271,
+      "width": 623,
+      "x": 1922,
+      "y": 15
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAeCAAAADwAACfAAAAEdAAAHggAAAA8AAAnwAAABHQAAAAAAAAAACgAAAAeCAAAADwAACfAAAAEd"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL U2520D",
+      "name": "HDMI-0",
+      "serial": "2VT4923",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-viewer_image_popup_geometry": {
+    "frame_geometry": {
+      "height": 122,
+      "width": 740,
+      "x": 902,
+      "y": 639
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 122,
+      "width": 740,
+      "x": 902,
+      "y": 639
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 122,
+      "width": 740,
+      "x": 902,
+      "y": 639
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAOGAAACfwAABmkAAAL4AAADhgAAAn8AAAZpAAAC+AAAAAAAAAAACgAAAAOGAAACfwAABmkAAAL4"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Dell Inc.",
+      "model": "DELL U2520D",
+      "name": "HDMI-0",
+      "serial": "2VT4923",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB9AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMkA////AAACOwAAAQ8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHIDAAAAAP////8AAAAAAAAAAA=="
+  },
   "old_prefs_migrated": true,
   "saved-search-settings": {
     "Condition": {
@@ -24,6 +130,15 @@
       "show_actions_toolbar": true
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Tommy Orange"
+        ],
+        "key": "/home/mjomdal/Downloads/There There - Tommy Orange.mobi",
+        "pathtoebook": "/home/mjomdal/Downloads/There There - Tommy Orange.mobi",
+        "timestamp": "2023-08-12T13:31:35.491Z",
+        "title": "There There"
+      },
       {
         "authors": [
           "Anderson, Thomas",

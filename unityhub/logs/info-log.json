@@ -1,0 +1,761 @@
+{"timestamp":"2023-06-16T00:51:51.320Z","level":"info","moduleName":"App","message":"[ 'Environment variables loaded successfully.' ]"}
+{"timestamp":"2023-06-16T00:51:51.321Z","level":"info","moduleName":"APMClient","message":"[ 'Initializing APM Client' ]"}
+{"timestamp":"2023-06-16T00:51:56.253Z","level":"info","moduleName":"App","message":"[ 'Checking arguments for Windows custom URI scheme' ]"}
+{"timestamp":"2023-06-16T00:51:56.253Z","level":"info","moduleName":"App","message":"[ 'No custom URI argument found' ]"}
+{"timestamp":"2023-06-16T00:51:58.877Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.4.2' ]"}
+{"timestamp":"2023-06-16T00:51:58.878Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: /home/mjomdal/Downloads/UnityHub.AppImage' ]"}
+{"timestamp":"2023-06-16T00:51:58.972Z","level":"info","moduleName":"SystemInfo","message":"[ 'AMD Ryzen 7 3800X 8-Core Processor; Linux (6.3.7-arch1-1)' ]"}
+{"timestamp":"2023-06-16T00:51:59.726Z","level":"info","moduleName":"HubSettings","message":"[ { cloudEnvironment: 'production', servicesUrlInterval: 900000, hubConfigInterval: 3600000, releasesRefreshInterval: 3600000, recentProjectInterval: 60000, downloadClusterInterval: 1000, downloadEditorInterval: 1000, refreshTokenValidity: 2592000000, checkForUpdateInterval: 43200000, sendAnalyticsEventsInterval: 60000, maxSizeForAnalyticsQueue: 500, downloadRequestTimeout: 30000, servicesConfigBaseUrl: 'https://public-cdn.cloud.unity3d.com/config/', globalConfigFolder: '/usr/share/unity3d/config' } ]"}
+{"timestamp":"2023-06-16T00:51:59.731Z","level":"info","moduleName":"CloudConfig","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-16T00:52:00.941Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-16T00:52:00.941Z","level":"info","moduleName":"LocalConfig","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-06-16T00:52:00.943Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Initializing Feature Flags Service' ]"}
+{"timestamp":"2023-06-16T00:52:00.944Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:00.946Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Setting feature flags to defaults', { 'application-performance-monitoring': { dsn: 'https://bdd85457ec98492fa8f7cd89d69d5a0e@o488710.ingest.sentry.io/5723370', maxBreadcrumbs: 50, sampleRate: 0.1, tracesSampleRate: 0.1, attachStacktrace: true, autoSessionTracking: true, normalizeDepth: 5, enabled: true, debug: false, environment: 'production' }, 'enable-surveys': false, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': false, 'light-mode': false, 'community-tab-static': true, 'new-template-promotion': false, 'incompatible-license-warning': false, 'missing-editor': false, 'enable-templates-service-api': false, 'skip-remove-confirmation': false } ]"}
+{"timestamp":"2023-06-16T00:52:00.950Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name org.freedesktop.secrets was not provided by any .service files] ]"}
+{"timestamp":"2023-06-16T00:52:00.951Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2023-06-16T00:52:00.951Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'licensingClientPath: /tmp/.mount_UnityHDIqtT2/UnityLicensingClient_V1/Unity.Licensing.Client' ]"}
+{"timestamp":"2023-06-16T00:52:00.952Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.9.2' ]"}
+{"timestamp":"2023-06-16T00:52:00.952Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2023-06-16T00:52:00.953Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-mjomdal.sock' ]"}
+{"timestamp":"2023-06-16T00:52:00.954Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Launching Licensing Client from /tmp/.mount_UnityHDIqtT2/UnityLicensingClient_V1/Unity.Licensing.Client...' ]"}
+{"timestamp":"2023-06-16T00:52:00.954Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Launching on pipe: 'Unity-LicenseClient-mjomdal' in environment: 'production'\" ]"}
+{"timestamp":"2023-06-16T00:52:01.243Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Returning cached feature flags', { 'application-performance-monitoring': { dsn: 'https://bdd85457ec98492fa8f7cd89d69d5a0e@o488710.ingest.sentry.io/5723370', maxBreadcrumbs: 50, sampleRate: 0.1, tracesSampleRate: 0.1, attachStacktrace: true, autoSessionTracking: true, normalizeDepth: 5, enabled: true, debug: false, environment: 'production' }, 'enable-surveys': false, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': false, 'light-mode': false, 'community-tab-static': true, 'new-template-promotion': false, 'incompatible-license-warning': false, 'missing-editor': false, 'enable-templates-service-api': false, 'skip-remove-confirmation': false } ]"}
+{"timestamp":"2023-06-16T00:52:01.251Z","level":"warn","moduleName":"FeatureFlagsService","message":"[ 'LaunchDarkly client was initialized with bootstrap data that did not include flag metadata. Events may not be sent correctly. Please see https://docs.launchdarkly.com/docs/js-sdk-reference#initializing-the-client for instructions on SDK initialization.' ]"}
+{"timestamp":"2023-06-16T00:52:01.253Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'LaunchDarkly client initialized' ]"}
+{"timestamp":"2023-06-16T00:52:01.255Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Initialized Feature Flags with flags:', { 'application-performance-monitoring': { dsn: 'https://bdd85457ec98492fa8f7cd89d69d5a0e@o488710.ingest.sentry.io/5723370', maxBreadcrumbs: 50, sampleRate: 0.1, tracesSampleRate: 0.1, attachStacktrace: true, autoSessionTracking: true, normalizeDepth: 5, enabled: true, debug: false, environment: 'production' }, 'enable-surveys': false, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': false, 'light-mode': false, 'community-tab-static': true, 'new-template-promotion': false, 'incompatible-license-warning': false, 'missing-editor': false, 'enable-templates-service-api': false, 'skip-remove-confirmation': false } ]"}
+{"timestamp":"2023-06-16T00:52:01.265Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-06-16T00:52:01.543Z","level":"info","moduleName":"APMClient","message":"[ 'New APM Config received.' ]"}
+{"timestamp":"2023-06-16T00:52:01.543Z","level":"info","moduleName":"APMClient","message":"[ 'Cloud config is disabled.' ]"}
+{"timestamp":"2023-06-16T00:52:01.543Z","level":"info","moduleName":"APMClient","message":"[ 'Disabling the APMClient.' ]"}
+{"timestamp":"2023-06-16T00:52:13.399Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 9047' ]"}
+{"timestamp":"2023-06-16T00:52:13.400Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-mjomdal.sock' ]"}
+{"timestamp":"2023-06-16T00:52:14.038Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client' ]"}
+{"timestamp":"2023-06-16T00:52:14.039Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.039Z","level":"info","moduleName":"Authentification Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2023-06-16T00:52:14.039Z","level":"info","moduleName":"Authentification Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2023-06-16T00:52:14.041Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2023-06-16T00:52:14.042Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.042Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.044Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:52:14.049Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:52:14.051Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:52:14.053Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:52:14.054Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:52:14.077Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:14.077Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.190Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.192Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.192Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.193Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Initialization with service type: LivePlatformAPI.' ]"}
+{"timestamp":"2023-06-16T00:52:14.193Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.193Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2023-06-16T00:52:14.200Z","level":"info","moduleName":"Releases","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2023-06-16T00:52:14.200Z","level":"info","moduleName":"ThemeManager","message":"[ 'Initializing Theme Manager' ]"}
+{"timestamp":"2023-06-16T00:52:14.239Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:14.240Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.241Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:14.241Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.242Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:14.242Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.243Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.244Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Custom install path not present.' ]"}
+{"timestamp":"2023-06-16T00:52:14.247Z","level":"info","moduleName":"EditorFolderScanner","message":"[ '1 out of 1 valid paths found in path:\\n      /home/mjomdal/Unity/Hub/Editor' ]"}
+{"timestamp":"2023-06-16T00:52:14.247Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/mjomdal/Unity/Hub/Editor/2019.4.17f1/modules.json' ]"}
+{"timestamp":"2023-06-16T00:52:14.248Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2023-06-16T00:52:14.253Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in legacy storage' ]"}
+{"timestamp":"2023-06-16T00:52:14.254Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in storage' ]"}
+{"timestamp":"2023-06-16T00:52:14.256Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:14.257Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.259Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.259Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.279Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Reset identity to anonymous' ]"}
+{"timestamp":"2023-06-16T00:52:14.286Z","level":"info","moduleName":"Releases","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2023-06-16T00:52:14.299Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.311Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:14.311Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:14.312Z","level":"warn","moduleName":"AutoUpdater","message":"[ 'Missing update server path' ]"}
+{"timestamp":"2023-06-16T00:52:14.312Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Checking for hub updates' ]"}
+{"timestamp":"2023-06-16T00:52:14.312Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'Checking for update' ]"}
+{"timestamp":"2023-06-16T00:52:14.433Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'No update available' ]"}
+{"timestamp":"2023-06-16T00:52:14.484Z","level":"info","moduleName":"HubIPCService","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.487Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]"}
+{"timestamp":"2023-06-16T00:52:14.489Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.491Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-16T00:52:14.496Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-16T00:52:14.497Z","level":"info","moduleName":"WindowManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.498Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.498Z","level":"info","moduleName":"TrayMenu","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:52:14.639Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-16T00:52:16.334Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-16T00:52:27.622Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.623Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.634Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:27.634Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.634Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.634Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:27.634Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.634Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.646Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:27.646Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.646Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:27.646Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.647Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.658Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:27.658Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.658Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.666Z","level":"info","moduleName":"AnalyticsService","message":"[\n  AxiosError: connect ECONNREFUSED 0.0.0.0:443\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {\n    port: 443,\n    address: '0.0.0.0',\n    syscall: 'connect',\n    code: 'ECONNREFUSED',\n    errno: -111,\n    config: { transitional: [Object], adapter: [Function: httpAdapter], transformRequest: [Array], transformResponse: [Array], timeout: 0, xsrfCookieName: 'XSRF-TOKEN', xsrfHeaderName: 'X-XSRF-TOKEN', maxContentLength: -1, maxBodyLength: -1, env: [Object], validateStatus: [Function: validateStatus], headers: [Object], proxy: false, responseType: 'json', method: 'post', url: 'https://prd-lender.cdp.internal.unity3d.com/v1/events', data: '{\"common\":{\"appid\":\"hub\",\"hub_version\":\"3.4.2-g\",\"machineid\":\"CdWGaVWuPfW73IpSb0iHVDcsNDo=\",\"platform\":\"kLinux\",\"platformid\":16,\"session_guid\":\"58484af4-b8bc-4e28-bc05-aa9362d510ef\",\"license_hash\":\"\"}}\\n{\"type\":\"hub.window.v1\",\"msg\":{\"ts\":1686876747646,\"window\":\"main-window\",\"event\":\"Open\"}}\\n' },\n    request: Writable { _writableState: [WritableState], _events: [Object: null prototype], _eventsCount: 3, _maxListeners: undefined, _options: [Object], _ended: false, _ending: true, _redirectCount: 0, _redirects: [], _requestBodyLength: 292, _requestBodyBuffers: [Array], _onNativeResponse: [Function (anonymous)], _currentRequest: [ClientRequest], _currentUrl: 'https://prd-lender.cdp.internal.unity3d.com/v1/events', [Symbol(kCapture)]: false }\n  }\n]"}
+{"timestamp":"2023-06-16T00:52:27.669Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:27.669Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:27.855Z","level":"error","moduleName":"ProjectsPreferencesService","message":"[ 'Malformed skip remove confirmation setting object. Received: {}' ]"}
+{"timestamp":"2023-06-16T00:52:27.888Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Hub upgrade version available undefined' ]"}
+{"timestamp":"2023-06-16T00:52:27.889Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2023-06-16T00:52:27.895Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '0 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:27.895Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '0 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:27.895Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '0 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:27.895Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '0 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:27.896Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2023-06-16T00:52:28.286Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:28.286Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:28.286Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:28.286Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:52:28.319Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:28.331Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:52:28.331Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:52:28.331Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-16T00:52:28.342Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-16T00:53:14.640Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-16T00:53:14.651Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-16T00:56:38.980Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock closed' ]"}
+{"timestamp":"2023-06-16T00:56:38.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:38.992Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:56:38.992Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:38.992Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.004Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:56:39.004Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.004Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.015Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:56:39.015Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.016Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.027Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:56:39.027Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.032Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.032Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.045Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:56:39.045Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.045Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.046Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:56:39.046Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:56:39.046Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:03.797Z","level":"info","moduleName":"App","message":"[ 'Environment variables loaded successfully.' ]"}
+{"timestamp":"2023-06-16T00:57:03.798Z","level":"info","moduleName":"APMClient","message":"[ 'Initializing APM Client' ]"}
+{"timestamp":"2023-06-16T00:57:08.911Z","level":"info","moduleName":"App","message":"[ 'Checking arguments for Windows custom URI scheme' ]"}
+{"timestamp":"2023-06-16T00:57:08.912Z","level":"info","moduleName":"App","message":"[ 'No custom URI argument found' ]"}
+{"timestamp":"2023-06-16T00:57:11.325Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.4.2' ]"}
+{"timestamp":"2023-06-16T00:57:11.326Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: /home/mjomdal/Downloads/UnityHub.AppImage' ]"}
+{"timestamp":"2023-06-16T00:57:11.405Z","level":"info","moduleName":"SystemInfo","message":"[ 'AMD Ryzen 7 3800X 8-Core Processor; Linux (6.3.7-arch1-1)' ]"}
+{"timestamp":"2023-06-16T00:57:12.070Z","level":"info","moduleName":"HubSettings","message":"[ { cloudEnvironment: 'production', servicesUrlInterval: 900000, hubConfigInterval: 3600000, releasesRefreshInterval: 3600000, recentProjectInterval: 60000, downloadClusterInterval: 1000, downloadEditorInterval: 1000, refreshTokenValidity: 2592000000, checkForUpdateInterval: 43200000, sendAnalyticsEventsInterval: 60000, maxSizeForAnalyticsQueue: 500, downloadRequestTimeout: 30000, servicesConfigBaseUrl: 'https://public-cdn.cloud.unity3d.com/config/', globalConfigFolder: '/usr/share/unity3d/config' } ]"}
+{"timestamp":"2023-06-16T00:57:12.075Z","level":"info","moduleName":"CloudConfig","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-16T00:57:13.554Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-16T00:57:13.554Z","level":"info","moduleName":"LocalConfig","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-06-16T00:57:13.556Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Initializing Feature Flags Service' ]"}
+{"timestamp":"2023-06-16T00:57:13.557Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:13.559Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Returning cached feature flags', { 'application-performance-monitoring': { debug: false, enabled: false, sampleRate: 0, tracesSampleRate: 0 }, 'enable-surveys': true, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': true, 'light-mode': true, 'community-tab-static': true, 'new-template-promotion': true, 'incompatible-license-warning': false, 'missing-editor': true, 'enable-templates-service-api': false, 'skip-remove-confirmation': true, 'community-resources': { active: false }, testFlag: false, 'dev-test-survey': false, 'unified-project-phase1': false, 'community-query-stream': false, 'list-new-category': false, collaboration: { active: false }, 'enable-heap-analytics': false } ]"}
+{"timestamp":"2023-06-16T00:57:13.562Z","level":"warn","moduleName":"FeatureFlagsService","message":"[ 'LaunchDarkly client was initialized with bootstrap data that did not include flag metadata. Events may not be sent correctly. Please see https://docs.launchdarkly.com/docs/js-sdk-reference#initializing-the-client for instructions on SDK initialization.' ]"}
+{"timestamp":"2023-06-16T00:57:13.565Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'LaunchDarkly client initialized' ]"}
+{"timestamp":"2023-06-16T00:57:13.570Z","level":"info","moduleName":"APMClient","message":"[ 'New APM Config received.' ]"}
+{"timestamp":"2023-06-16T00:57:13.570Z","level":"info","moduleName":"APMClient","message":"[ 'Cloud config is disabled.' ]"}
+{"timestamp":"2023-06-16T00:57:13.570Z","level":"info","moduleName":"APMClient","message":"[ 'Disabling the APMClient.' ]"}
+{"timestamp":"2023-06-16T00:57:13.571Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Initialized Feature Flags with flags:', { 'application-performance-monitoring': { debug: false, enabled: false, sampleRate: 0, tracesSampleRate: 0 }, 'enable-surveys': true, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': true, 'light-mode': true, 'community-tab-static': true, 'new-template-promotion': true, 'incompatible-license-warning': false, 'missing-editor': true, 'enable-templates-service-api': false, 'skip-remove-confirmation': true, 'community-resources': { active: false }, testFlag: false, 'dev-test-survey': false, 'unified-project-phase1': false, 'community-query-stream': false, 'list-new-category': false, collaboration: { active: false }, 'enable-heap-analytics': false } ]"}
+{"timestamp":"2023-06-16T00:57:13.572Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name org.freedesktop.secrets was not provided by any .service files] ]"}
+{"timestamp":"2023-06-16T00:57:13.572Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2023-06-16T00:57:13.572Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'licensingClientPath: /tmp/.mount_UnityHNaykRa/UnityLicensingClient_V1/Unity.Licensing.Client' ]"}
+{"timestamp":"2023-06-16T00:57:13.573Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.9.2' ]"}
+{"timestamp":"2023-06-16T00:57:13.573Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2023-06-16T00:57:13.574Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-mjomdal.sock' ]"}
+{"timestamp":"2023-06-16T00:57:13.577Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Launching Licensing Client from /tmp/.mount_UnityHNaykRa/UnityLicensingClient_V1/Unity.Licensing.Client...' ]"}
+{"timestamp":"2023-06-16T00:57:13.577Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Launching on pipe: 'Unity-LicenseClient-mjomdal' in environment: 'production'\" ]"}
+{"timestamp":"2023-06-16T00:57:13.778Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-06-16T00:57:25.490Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 11338' ]"}
+{"timestamp":"2023-06-16T00:57:25.490Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-mjomdal.sock' ]"}
+{"timestamp":"2023-06-16T00:57:26.063Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client' ]"}
+{"timestamp":"2023-06-16T00:57:26.063Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.063Z","level":"info","moduleName":"Authentification Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2023-06-16T00:57:26.064Z","level":"info","moduleName":"Authentification Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2023-06-16T00:57:26.065Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2023-06-16T00:57:26.066Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.067Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.068Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:57:26.074Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:57:26.076Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:57:26.077Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:57:26.079Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-16T00:57:26.091Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:26.091Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.166Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.167Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.167Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.168Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Initialization with service type: LivePlatformAPI.' ]"}
+{"timestamp":"2023-06-16T00:57:26.168Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.168Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2023-06-16T00:57:26.174Z","level":"info","moduleName":"Releases","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2023-06-16T00:57:26.175Z","level":"info","moduleName":"ThemeManager","message":"[ 'Initializing Theme Manager' ]"}
+{"timestamp":"2023-06-16T00:57:26.214Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:26.214Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.215Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:26.215Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.216Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:26.216Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.216Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.225Z","level":"info","moduleName":"EditorFolderScanner","message":"[ '1 out of 1 valid paths found in path:\\n      /home/mjomdal/Unity/Hub/Editor' ]"}
+{"timestamp":"2023-06-16T00:57:26.225Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/mjomdal/Unity/Hub/Editor/2019.4.17f1/modules.json' ]"}
+{"timestamp":"2023-06-16T00:57:26.246Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:26.246Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.247Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2023-06-16T00:57:26.250Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in legacy storage' ]"}
+{"timestamp":"2023-06-16T00:57:26.250Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in storage' ]"}
+{"timestamp":"2023-06-16T00:57:26.253Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.253Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.257Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Reset identity to anonymous' ]"}
+{"timestamp":"2023-06-16T00:57:26.282Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.293Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:26.293Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:26.294Z","level":"warn","moduleName":"AutoUpdater","message":"[ 'Missing update server path' ]"}
+{"timestamp":"2023-06-16T00:57:26.294Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Checking for hub updates' ]"}
+{"timestamp":"2023-06-16T00:57:26.295Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'Checking for update' ]"}
+{"timestamp":"2023-06-16T00:57:26.462Z","level":"info","moduleName":"AutoUpdater:EventHandler","message":"[ 'No update available' ]"}
+{"timestamp":"2023-06-16T00:57:26.498Z","level":"info","moduleName":"HubIPCService","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.501Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]"}
+{"timestamp":"2023-06-16T00:57:26.502Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.504Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-16T00:57:26.510Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-16T00:57:26.510Z","level":"info","moduleName":"WindowManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.511Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.511Z","level":"info","moduleName":"TrayMenu","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-16T00:57:26.697Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-16T00:57:28.378Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-16T00:57:39.615Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.616Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.628Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:39.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:39.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.640Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:39.640Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.641Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:39.641Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.642Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.653Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:39.653Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.653Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.660Z","level":"info","moduleName":"AnalyticsService","message":"[\n  AxiosError: connect ECONNREFUSED 0.0.0.0:443\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {\n    port: 443,\n    address: '0.0.0.0',\n    syscall: 'connect',\n    code: 'ECONNREFUSED',\n    errno: -111,\n    config: { transitional: [Object], adapter: [Function: httpAdapter], transformRequest: [Array], transformResponse: [Array], timeout: 0, xsrfCookieName: 'XSRF-TOKEN', xsrfHeaderName: 'X-XSRF-TOKEN', maxContentLength: -1, maxBodyLength: -1, env: [Object], validateStatus: [Function: validateStatus], headers: [Object], proxy: false, responseType: 'json', method: 'post', url: 'https://prd-lender.cdp.internal.unity3d.com/v1/events', data: '{\"common\":{\"appid\":\"hub\",\"hub_version\":\"3.4.2-g\",\"machineid\":\"CdWGaVWuPfW73IpSb0iHVDcsNDo=\",\"platform\":\"kLinux\",\"platformid\":16,\"session_guid\":\"d435beae-d099-4333-a0c4-fccb8832d2a3\",\"license_hash\":\"\"}}\\n{\"type\":\"hub.window.v1\",\"msg\":{\"ts\":1686877059641,\"window\":\"main-window\",\"event\":\"Open\"}}\\n' },\n    request: Writable { _writableState: [WritableState], _events: [Object: null prototype], _eventsCount: 3, _maxListeners: undefined, _options: [Object], _ended: false, _ending: true, _redirectCount: 0, _redirects: [], _requestBodyLength: 292, _requestBodyBuffers: [Array], _onNativeResponse: [Function (anonymous)], _currentRequest: [ClientRequest], _currentUrl: 'https://prd-lender.cdp.internal.unity3d.com/v1/events', [Symbol(kCapture)]: false }\n  }\n]"}
+{"timestamp":"2023-06-16T00:57:39.664Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:39.664Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:39.816Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-16T00:57:39.819Z","level":"error","moduleName":"ProjectsPreferencesService","message":"[ 'Malformed skip remove confirmation setting object. Received: {}' ]"}
+{"timestamp":"2023-06-16T00:57:39.835Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Hub upgrade version available undefined' ]"}
+{"timestamp":"2023-06-16T00:57:39.836Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2023-06-16T00:57:39.899Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:39.899Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:39.899Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:39.899Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:39.917Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2023-06-16T00:57:40.331Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:40.331Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:40.331Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:40.331Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-16T00:57:40.354Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:40.367Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:57:40.367Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:57:40.367Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-16T00:57:40.380Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-16T00:58:26.700Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-16T00:58:26.713Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-16T00:58:43.283Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock closed' ]"}
+{"timestamp":"2023-06-16T00:58:43.283Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.296Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:58:43.296Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.296Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.307Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:58:43.307Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.308Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.319Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:58:43.319Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.319Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.331Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-16T00:58:43.331Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.335Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-16T00:58:43.336Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:19.835Z","level":"info","moduleName":"App","message":"[ 'Environment variables loaded successfully.' ]"}
+{"timestamp":"2023-06-20T23:39:19.836Z","level":"info","moduleName":"APMClient","message":"[ 'Initializing APM Client' ]"}
+{"timestamp":"2023-06-20T23:39:19.889Z","level":"info","moduleName":"App","message":"[ 'Checking arguments for Windows custom URI scheme' ]"}
+{"timestamp":"2023-06-20T23:39:19.889Z","level":"info","moduleName":"App","message":"[ 'No custom URI argument found' ]"}
+{"timestamp":"2023-06-20T23:39:19.897Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub version: 3.4.2' ]"}
+{"timestamp":"2023-06-20T23:39:19.897Z","level":"info","moduleName":"SystemInfo","message":"[ 'Hub path: undefined' ]"}
+{"timestamp":"2023-06-20T23:39:19.898Z","level":"info","moduleName":"SystemInfo","message":"[ 'AMD Ryzen 7 3800X 8-Core Processor; Linux (6.3.7-arch1-1)' ]"}
+{"timestamp":"2023-06-20T23:39:19.907Z","level":"info","moduleName":"HubSettings","message":"[ { cloudEnvironment: 'production', servicesUrlInterval: 900000, hubConfigInterval: 3600000, releasesRefreshInterval: 3600000, recentProjectInterval: 60000, downloadClusterInterval: 1000, downloadEditorInterval: 1000, refreshTokenValidity: 2592000000, checkForUpdateInterval: 43200000, sendAnalyticsEventsInterval: 60000, maxSizeForAnalyticsQueue: 500, downloadRequestTimeout: 30000, servicesConfigBaseUrl: 'https://public-cdn.cloud.unity3d.com/config/', globalConfigFolder: '/usr/share/unity3d/config' } ]"}
+{"timestamp":"2023-06-20T23:39:19.910Z","level":"info","moduleName":"CloudConfig","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-20T23:39:20.137Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-20T23:39:20.137Z","level":"info","moduleName":"LocalConfig","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-06-20T23:39:20.139Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Initializing Feature Flags Service' ]"}
+{"timestamp":"2023-06-20T23:39:20.140Z","level":"info","moduleName":"TokenManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.142Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Returning cached feature flags', { 'application-performance-monitoring': { debug: false, enabled: false, sampleRate: 0, tracesSampleRate: 0 }, 'enable-surveys': true, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': true, 'light-mode': true, 'community-tab-static': true, 'new-template-promotion': true, 'incompatible-license-warning': false, 'missing-editor': true, 'enable-templates-service-api': false, 'skip-remove-confirmation': true, 'community-resources': { active: false }, testFlag: false, 'dev-test-survey': false, 'unified-project-phase1': false, 'community-query-stream': false, 'list-new-category': false, collaboration: { active: false }, 'enable-heap-analytics': false } ]"}
+{"timestamp":"2023-06-20T23:39:20.145Z","level":"warn","moduleName":"FeatureFlagsService","message":"[ 'LaunchDarkly client was initialized with bootstrap data that did not include flag metadata. Events may not be sent correctly. Please see https://docs.launchdarkly.com/docs/js-sdk-reference#initializing-the-client for instructions on SDK initialization.' ]"}
+{"timestamp":"2023-06-20T23:39:20.146Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'LaunchDarkly client initialized' ]"}
+{"timestamp":"2023-06-20T23:39:20.148Z","level":"info","moduleName":"APMClient","message":"[ 'New APM Config received.' ]"}
+{"timestamp":"2023-06-20T23:39:20.148Z","level":"info","moduleName":"APMClient","message":"[ 'Cloud config is disabled.' ]"}
+{"timestamp":"2023-06-20T23:39:20.148Z","level":"info","moduleName":"APMClient","message":"[ 'Disabling the APMClient.' ]"}
+{"timestamp":"2023-06-20T23:39:20.149Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Initialized Feature Flags with flags:', { 'application-performance-monitoring': { debug: false, enabled: false, sampleRate: 0, tracesSampleRate: 0 }, 'enable-surveys': true, 'work-offline': false, 'plastic-compatible-editor-message': true, 'enable-cms': true, 'light-mode': true, 'community-tab-static': true, 'new-template-promotion': true, 'incompatible-license-warning': false, 'missing-editor': true, 'enable-templates-service-api': false, 'skip-remove-confirmation': true, 'community-resources': { active: false }, testFlag: false, 'dev-test-survey': false, 'unified-project-phase1': false, 'community-query-stream': false, 'list-new-category': false, collaboration: { active: false }, 'enable-heap-analytics': false } ]"}
+{"timestamp":"2023-06-20T23:39:20.149Z","level":"warn","moduleName":"TokenManager","message":"[ 'Token storage is corrupted.', [Error: The name org.freedesktop.secrets was not provided by any .service files] ]"}
+{"timestamp":"2023-06-20T23:39:20.149Z","level":"info","moduleName":"TokenManager","message":"[ 'Done init' ]"}
+{"timestamp":"2023-06-20T23:39:20.150Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'licensingClientPath: /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client' ]"}
+{"timestamp":"2023-06-20T23:39:20.150Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing SDK version: v1.9.2' ]"}
+{"timestamp":"2023-06-20T23:39:20.150Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'connect: Connecting to Licensing Client IPC channel' ]"}
+{"timestamp":"2023-06-20T23:39:20.151Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-mjomdal.sock' ]"}
+{"timestamp":"2023-06-20T23:39:20.152Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Launching Licensing Client from /opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client...' ]"}
+{"timestamp":"2023-06-20T23:39:20.152Z","level":"info","moduleName":"LicensingSdkService","message":"[ \"Launching on pipe: 'Unity-LicenseClient-mjomdal' in environment: 'production'\" ]"}
+{"timestamp":"2023-06-20T23:39:20.202Z","level":"info","moduleName":"LocalConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]"}
+{"timestamp":"2023-06-20T23:39:20.465Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Licensing client process run with pid: 30653' ]"}
+{"timestamp":"2023-06-20T23:39:20.465Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Trying to connect on pipe /tmp/Unity-LicenseClient-mjomdal.sock' ]"}
+{"timestamp":"2023-06-20T23:39:20.502Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully connected to licensing client' ]"}
+{"timestamp":"2023-06-20T23:39:20.502Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.502Z","level":"info","moduleName":"Authentification Service","message":"[ 'Initializing the auth service' ]"}
+{"timestamp":"2023-06-20T23:39:20.502Z","level":"info","moduleName":"Authentification Service","message":"[ 'Logging out' ]"}
+{"timestamp":"2023-06-20T23:39:20.504Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2023-06-20T23:39:20.504Z","level":"info","moduleName":"CloudAnalytics","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.505Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.505Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-20T23:39:20.508Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-20T23:39:20.509Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-20T23:39:20.510Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-20T23:39:20.510Z","level":"error","message":"Unhandled promise rejection, reason: The name org.freedesktop.secrets was not provided by any .service files\n\tstack Error: The name org.freedesktop.secrets was not provided by any .service files"}
+{"timestamp":"2023-06-20T23:39:20.521Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:20.522Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.523Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.524Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.525Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.525Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Initialization with service type: LivePlatformAPI.' ]"}
+{"timestamp":"2023-06-20T23:39:20.525Z","level":"info","moduleName":"EditorManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.525Z","level":"info","moduleName":"EditorList","message":"[ 'init' ]"}
+{"timestamp":"2023-06-20T23:39:20.528Z","level":"info","moduleName":"Releases","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]"}
+{"timestamp":"2023-06-20T23:39:20.528Z","level":"info","moduleName":"ThemeManager","message":"[ 'Initializing Theme Manager' ]"}
+{"timestamp":"2023-06-20T23:39:20.547Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:20.548Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.548Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:20.548Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.549Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:20.549Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.549Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.550Z","level":"info","moduleName":"EditorFolderScanner","message":"[ '0 out of 0 valid paths found in path:\\n      /home/mjomdal/Unity/Hub/Editor' ]"}
+{"timestamp":"2023-06-20T23:39:20.550Z","level":"info","moduleName":"customInstallLocation","message":"[ 'Cannot scan custom location (no path set).' ]"}
+{"timestamp":"2023-06-20T23:39:20.564Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:20.565Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.567Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in legacy storage' ]"}
+{"timestamp":"2023-06-20T23:39:20.567Z","level":"info","moduleName":"LocatedEditorStorage","message":"[ '0 located editors found in storage' ]"}
+{"timestamp":"2023-06-20T23:39:20.570Z","level":"info","moduleName":"EditorApp","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.570Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.600Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Reset identity to anonymous' ]"}
+{"timestamp":"2023-06-20T23:39:20.618Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:20.629Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:20.630Z","level":"warn","moduleName":"AutoUpdater","message":"[ 'Missing update server path' ]"}
+{"timestamp":"2023-06-20T23:39:20.630Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Checking for hub updates' ]"}
+{"timestamp":"2023-06-20T23:39:20.633Z","level":"info","moduleName":"HubIPCService","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.635Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]"}
+{"timestamp":"2023-06-20T23:39:20.635Z","level":"info","moduleName":"LocalProject","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.636Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-20T23:39:20.640Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-20T23:39:20.641Z","level":"info","moduleName":"WindowManager","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.641Z","level":"info","moduleName":"NetworkInterceptors","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.641Z","level":"info","moduleName":"TrayMenu","message":"[ 'Init' ]"}
+{"timestamp":"2023-06-20T23:39:20.711Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:39:20.749Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:39:21.173Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.174Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.186Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.186Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.186Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.186Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.186Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.186Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.199Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.199Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.200Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.200Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.201Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.202Z","level":"warn","moduleName":"EditorPrefLinux","message":"[ [Error: ENOENT: no such file or directory, open '/home/mjomdal/.local/share/unity3d/prefs'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/home/mjomdal/.local/share/unity3d/prefs' } ]"}
+{"timestamp":"2023-06-20T23:39:21.203Z","level":"error","moduleName":"ProjectsPreferencesService","message":"[ 'Malformed skip remove confirmation setting object. Received: {}' ]"}
+{"timestamp":"2023-06-20T23:39:21.213Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.213Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.213Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.214Z","level":"info","moduleName":"AnalyticsService","message":"[\n  AxiosError: connect ECONNREFUSED 0.0.0.0:443\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {\n    port: 443,\n    address: '0.0.0.0',\n    syscall: 'connect',\n    code: 'ECONNREFUSED',\n    errno: -111,\n    config: { transitional: [Object], adapter: [Function: httpAdapter], transformRequest: [Array], transformResponse: [Array], timeout: 0, xsrfCookieName: 'XSRF-TOKEN', xsrfHeaderName: 'X-XSRF-TOKEN', maxContentLength: -1, maxBodyLength: -1, env: [Object], validateStatus: [Function: validateStatus], headers: [Object], proxy: false, responseType: 'json', method: 'post', url: 'https://prd-lender.cdp.internal.unity3d.com/v1/events', data: '{\"common\":{\"appid\":\"hub\",\"hub_version\":\"3.4.2-g\",\"machineid\":\"CdWGaVWuPfW73IpSb0iHVDcsNDo=\",\"platform\":\"kLinux\",\"platformid\":16,\"session_guid\":\"64294748-101b-4371-8f92-244f1b4d214c\",\"license_hash\":\"\"}}\\n{\"type\":\"hub.window.v1\",\"msg\":{\"ts\":1687304361200,\"window\":\"main-window\",\"event\":\"Open\"}}\\n' },\n    request: Writable { _writableState: [WritableState], _events: [Object: null prototype], _eventsCount: 3, _maxListeners: undefined, _options: [Object], _ended: false, _ending: true, _redirectCount: 0, _redirects: [], _requestBodyLength: 292, _requestBodyBuffers: [Array], _onNativeResponse: [Function (anonymous)], _currentRequest: [ClientRequest], _currentUrl: 'https://prd-lender.cdp.internal.unity3d.com/v1/events', [Symbol(kCapture)]: false }\n  }\n]"}
+{"timestamp":"2023-06-20T23:39:21.217Z","level":"info","moduleName":"AutoUpdater","message":"[ 'Hub upgrade version available undefined' ]"}
+{"timestamp":"2023-06-20T23:39:21.218Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2023-06-20T23:39:21.242Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.242Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.242Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.242Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.247Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.247Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.256Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ 'Begin fetching Unity editor release data.' ]"}
+{"timestamp":"2023-06-20T23:39:21.599Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 LTS releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.599Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '3 TECH releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.599Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 ALPHA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.599Z","level":"info","moduleName":"UnityReleaseServiceAdapter","message":"[ '4 BETA releases retrieved from LivePlatformAPI.', { architecture: [ 'X86_64' ], platform: 'LINUX' } ]"}
+{"timestamp":"2023-06-20T23:39:21.621Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.632Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:21.632Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:21.633Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:39:21.644Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:39:25.746Z","level":"info","moduleName":"secondAppInstanceBootstrap","message":"[ 'Second instance of the Hub was started. Closing..' ]"}
+{"timestamp":"2023-06-20T23:39:26.241Z","level":"info","moduleName":"Authentification Service","message":"[ 'Fetching user info from the identity provider using access token' ]"}
+{"timestamp":"2023-06-20T23:39:26.244Z","level":"warn","moduleName":"TokenManager","message":"[ 'Unable to save tokens.', [Error: The name org.freedesktop.secrets was not provided by any .service files] ]"}
+{"timestamp":"2023-06-20T23:39:26.443Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:39:26.446Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'setAccessToken: Setting access token' ]"}
+{"timestamp":"2023-06-20T23:39:26.446Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.446Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.448Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.455Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:39:26.458Z","level":"warn","moduleName":"AnalyticsOptinHelper","message":"[ 'Could not check analytics for user 2313115: connect ECONNREFUSED 0.0.0.0:443' ]"}
+{"timestamp":"2023-06-20T23:39:26.459Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'activateAllEntitlementBasedLicenses: Activating all entitlement based licenses' ]"}
+{"timestamp":"2023-06-20T23:39:26.460Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:26.460Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.460Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.461Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:26.461Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.461Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.462Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:26.462Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:26.523Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Set identity to', 'DWkXvUTmJI2tCBvmv7wrMy+WlClkXei5DGn9i6sCCnE=' ]"}
+{"timestamp":"2023-06-20T23:39:26.530Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.021Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully activated all entitlement based licenses:[]' ]"}
+{"timestamp":"2023-06-20T23:39:27.021Z","level":"info","moduleName":"LicenseService","message":"[ 'activateAllEntitlementBasedLicenses: finished' ]"}
+{"timestamp":"2023-06-20T23:39:27.022Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:27.022Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.022Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.023Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:27.023Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.024Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:27.024Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.024Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.034Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:27.034Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.034Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:39:27.035Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:39:27.035Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:39:27.046Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:39:31.473Z","level":"warn","moduleName":"AnalyticsOptinHelper","message":"[ 'Could not check analytics for user 2313115: connect ECONNREFUSED 0.0.0.0:443' ]"}
+{"timestamp":"2023-06-20T23:39:36.489Z","level":"warn","moduleName":"AnalyticsOptinHelper","message":"[ 'Could not check analytics for user 2313115: connect ECONNREFUSED 0.0.0.0:443' ]"}
+{"timestamp":"2023-06-20T23:39:41.508Z","level":"warn","moduleName":"AnalyticsOptinHelper","message":"[ 'Could not check analytics for user 2313115: connect ECONNREFUSED 0.0.0.0:443' ]"}
+{"timestamp":"2023-06-20T23:40:20.712Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:40:20.724Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:40:51.797Z","level":"info","moduleName":"EditorFolderScanner","message":"[ '0 out of 0 valid paths found in path:\\n      /home/mjomdal/.local/share/Unity' ]"}
+{"timestamp":"2023-06-20T23:40:56.000Z","level":"info","moduleName":"Download Manager","message":"[ 'Item: 2022.3.2f1-x86_64 added to Download Queue.' ]"}
+{"timestamp":"2023-06-20T23:40:56.000Z","level":"info","moduleName":"Download Manager","message":"[ 'Removed 2022.3.2f1-x86_64 from Download Queue.' ]"}
+{"timestamp":"2023-06-20T23:40:56.001Z","level":"info","moduleName":"Download Manager","message":"[ 'Starting download of 2022.3.2f1-x86_64' ]"}
+{"timestamp":"2023-06-20T23:40:56.003Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2022.3.2f1-x86_64, Current State: xstate.init' ]"}
+{"timestamp":"2023-06-20T23:40:56.003Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.003Z","level":"info","moduleName":"Download Item 2022.3.2f1-x86_64","message":"[ 'Transition to state download_validation' ]"}
+{"timestamp":"2023-06-20T23:40:56.004Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Download Validation Strategy...' ]"}
+{"timestamp":"2023-06-20T23:40:56.004Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-06-20T23:40:56.004Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.005Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating source path (https://download.unity3d.com/download_unity/d74737c6db50/LinuxEditorInstaller/Unity-2022.3.2f1.tar.xz) availability...' ]"}
+{"timestamp":"2023-06-20T23:40:56.014Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:40:56.014Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.014Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.019Z","level":"info","moduleName":"Download Manager","message":"[ 'Item: 15526bcb-71e1-4463-abb2-1f034d384516 added to Download Queue.' ]"}
+{"timestamp":"2023-06-20T23:40:56.019Z","level":"info","moduleName":"Download Manager","message":"[ 'Removed 15526bcb-71e1-4463-abb2-1f034d384516 from Download Queue.' ]"}
+{"timestamp":"2023-06-20T23:40:56.019Z","level":"info","moduleName":"Download Manager","message":"[ 'Starting download of 15526bcb-71e1-4463-abb2-1f034d384516' ]"}
+{"timestamp":"2023-06-20T23:40:56.019Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 15526bcb-71e1-4463-abb2-1f034d384516, Current State: xstate.init' ]"}
+{"timestamp":"2023-06-20T23:40:56.019Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.019Z","level":"info","moduleName":"Download Item 15526bcb-71e1-4463-abb2-1f034d384516","message":"[ 'Transition to state download_validation' ]"}
+{"timestamp":"2023-06-20T23:40:56.020Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Download Validation Strategy...' ]"}
+{"timestamp":"2023-06-20T23:40:56.020Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-06-20T23:40:56.021Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.021Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating source path (https://download.unity3d.com/download_unity/d74737c6db50/LinuxEditorTargetInstaller/UnitySetup-WebGL-Support-for-Editor-2022.3.2f1.tar.xz) availability...' ]"}
+{"timestamp":"2023-06-20T23:40:56.021Z","level":"info","moduleName":"Download Manager","message":"[ 'Item: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f added to Download Queue.' ]"}
+{"timestamp":"2023-06-20T23:40:56.024Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:40:56.024Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.031Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:40:56.031Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.031Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.042Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:40:56.042Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 0 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:40:56.095Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Source Availability check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.095Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-06-20T23:40:56.095Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 570625980 bytes / 544.19 MB...' ]"}
+{"timestamp":"2023-06-20T23:40:56.096Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Available disk space check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.096Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-06-20T23:40:56.096Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-06-20T23:40:56.096Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.097Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 15526bcb-71e1-4463-abb2-1f034d384516, Exiting from State: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:40:56.097Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 15526bcb-71e1-4463-abb2-1f034d384516, Current State: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:40:56.097Z","level":"info","moduleName":"Download Item 15526bcb-71e1-4463-abb2-1f034d384516","message":"[ 'Transition to state downloading' ]"}
+{"timestamp":"2023-06-20T23:40:56.098Z","level":"info","moduleName":"Node Downloader for 15526bcb-71e1-4463-abb2-1f034d384516","message":"[ 'Download started' ]"}
+{"timestamp":"2023-06-20T23:40:56.695Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Source Availability check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.695Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-06-20T23:40:56.695Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 3045679308 bytes / 2.84 GB...' ]"}
+{"timestamp":"2023-06-20T23:40:56.696Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Available disk space check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.696Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-06-20T23:40:56.696Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-06-20T23:40:56.696Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-06-20T23:40:56.697Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2022.3.2f1-x86_64, Exiting from State: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:40:56.697Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2022.3.2f1-x86_64, Current State: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:40:56.697Z","level":"info","moduleName":"Download Item 2022.3.2f1-x86_64","message":"[ 'Transition to state downloading' ]"}
+{"timestamp":"2023-06-20T23:40:56.698Z","level":"info","moduleName":"Node Downloader for 2022.3.2f1-x86_64","message":"[ 'Download started' ]"}
+{"timestamp":"2023-06-20T23:41:00.296Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'activateUlfLicense: Activating personal license' ]"}
+{"timestamp":"2023-06-20T23:41:02.367Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully activated ULF license' ]"}
+{"timestamp":"2023-06-20T23:41:02.368Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.368Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.368Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:41:02.369Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.370Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.390Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:02.390Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.400Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:02.400Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.401Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:41:02.406Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:02.407Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.407Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:41:02.412Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:02.412Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:02.417Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:41:02.485Z","level":"info","moduleName":"FeatureFlagsService","message":"[ 'Set identity to', 'DWkXvUTmJI2tCBvmv7wrMy+WlClkXei5DGn9i6sCCnE=' ]"}
+{"timestamp":"2023-06-20T23:41:05.279Z","level":"info","moduleName":"Download Item 15526bcb-71e1-4463-abb2-1f034d384516","message":"[ 'Download Finished. Wrote 570625980 bytes on the disk.' ]"}
+{"timestamp":"2023-06-20T23:41:05.281Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 15526bcb-71e1-4463-abb2-1f034d384516, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:41:05.281Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 15526bcb-71e1-4463-abb2-1f034d384516, Filename: UnitySetup-WebGL-Support-for-Editor-2022.3.2f1.tar.xz \\n    Current State: COMPLETED, exiting the state machine.' ]"}
+{"timestamp":"2023-06-20T23:41:05.281Z","level":"info","moduleName":"Download Item 15526bcb-71e1-4463-abb2-1f034d384516","message":"[ 'Transition to state download_finished' ]"}
+{"timestamp":"2023-06-20T23:41:05.282Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 15526bcb-71e1-4463-abb2-1f034d384516, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:41:05.282Z","level":"info","moduleName":"Download Manager","message":"[ 'Removed e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f from Download Queue.' ]"}
+{"timestamp":"2023-06-20T23:41:05.283Z","level":"info","moduleName":"Download Manager","message":"[ 'Starting download of e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f' ]"}
+{"timestamp":"2023-06-20T23:41:05.284Z","level":"info","moduleName":"Download Item","message":"[ 'Download: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f, Current State: xstate.init' ]"}
+{"timestamp":"2023-06-20T23:41:05.284Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.284Z","level":"info","moduleName":"Download Item e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f","message":"[ 'Transition to state download_validation' ]"}
+{"timestamp":"2023-06-20T23:41:05.285Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Download Validation Strategy...' ]"}
+{"timestamp":"2023-06-20T23:41:05.288Z","level":"error","moduleName":"Installation Manager","message":"[\n  'Parent editor location not found in the available editors list. Install path to be determined when pending editor install is complete.',\n  Error: No editor installed. Could not be retrieved for criteria: {\"version\":\"2022.3.2f1\",\"architecture\":\"x86_64\"}\n      at EditorManager.getEditor (/opt/unityhub/resources/app.asar/build/main/services/editorManager/editorManager.js:234:25)\n      at InstallationManager.prepareValidationStrategy (/opt/unityhub/resources/app.asar/build/main/services/installationEngine/InstallationManager.js:403:58)\n      at InstallationManager.queue (/opt/unityhub/resources/app.asar/build/main/services/installationEngine/InstallationManager.js:53:42)\n      at DownloadManagerUtilities.addToInstalls (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/utilities/DownloadManagerUtilities.js:115:46)\n      at onStateChangeHandler (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/downloadItemFactories/createModuleDownloadItem.js:68:52)\n      at DownloadItem.notifyParent (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/DownloadManager.js:248:17)\n      at DownloadItem.onFinish (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/DownloadItem.js:220:14)\n      at Interpreter.exec (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:770:16)\n      at Interpreter.execute (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:204:14)\n      at Interpreter.update (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:230:12) {\n    code: 0\n  }\n]"}
+{"timestamp":"2023-06-20T23:41:05.288Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.289Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-06-20T23:41:05.290Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-06-20T23:41:05.291Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating source path (https://cloudmedia-docs.unity3d.com/docscloudstorage/2022.3/UnityDocumentation.zip) availability...' ]"}
+{"timestamp":"2023-06-20T23:41:05.300Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:05.300Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.300Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.306Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:05.306Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.306Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.315Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:05.315Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.320Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:05.320Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:05.655Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Source Availability check: Passed' ]"}
+{"timestamp":"2023-06-20T23:41:05.655Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-06-20T23:41:05.655Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 347812411 bytes / 331.7 MB...' ]"}
+{"timestamp":"2023-06-20T23:41:05.657Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Available disk space check: Passed' ]"}
+{"timestamp":"2023-06-20T23:41:05.657Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-06-20T23:41:05.657Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-06-20T23:41:05.657Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-06-20T23:41:05.657Z","level":"info","moduleName":"Download Item","message":"[ 'Download: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f, Exiting from State: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:41:05.658Z","level":"info","moduleName":"Download Item","message":"[ 'Download: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f, Current State: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:41:05.658Z","level":"info","moduleName":"Download Item e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f","message":"[ 'Transition to state downloading' ]"}
+{"timestamp":"2023-06-20T23:41:05.660Z","level":"info","moduleName":"Node Downloader for e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f","message":"[ 'Download started' ]"}
+{"timestamp":"2023-06-20T23:41:14.959Z","level":"info","moduleName":"Download Item e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f","message":"[ 'Download Finished. Wrote 346922501 bytes on the disk.' ]"}
+{"timestamp":"2023-06-20T23:41:14.961Z","level":"info","moduleName":"Download Item","message":"[ 'Download: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:41:14.962Z","level":"info","moduleName":"Download Item","message":"[ 'Download: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f, Filename: UnityDocumentation.zip \\n    Current State: COMPLETED, exiting the state machine.' ]"}
+{"timestamp":"2023-06-20T23:41:14.962Z","level":"info","moduleName":"Download Item e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f","message":"[ 'Transition to state download_finished' ]"}
+{"timestamp":"2023-06-20T23:41:14.962Z","level":"info","moduleName":"Download Item","message":"[ 'Download: e5d29fc2-2bb7-4dda-9faf-3d6b2dc0600f, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:41:14.964Z","level":"error","moduleName":"Installation Manager","message":"[\n  'Parent editor location not found in the available editors list. Install path to be determined when pending editor install is complete.',\n  Error: No editor installed. Could not be retrieved for criteria: {\"version\":\"2022.3.2f1\",\"architecture\":\"x86_64\"}\n      at EditorManager.getEditor (/opt/unityhub/resources/app.asar/build/main/services/editorManager/editorManager.js:234:25)\n      at InstallationManager.prepareValidationStrategy (/opt/unityhub/resources/app.asar/build/main/services/installationEngine/InstallationManager.js:403:58)\n      at InstallationManager.queue (/opt/unityhub/resources/app.asar/build/main/services/installationEngine/InstallationManager.js:53:42)\n      at DownloadManagerUtilities.addToInstalls (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/utilities/DownloadManagerUtilities.js:115:46)\n      at onStateChangeHandler (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/downloadItemFactories/createModuleDownloadItem.js:68:52)\n      at DownloadItem.notifyParent (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/DownloadManager.js:248:17)\n      at DownloadItem.onFinish (/opt/unityhub/resources/app.asar/build/main/services/downloadEngine/DownloadItem.js:220:14)\n      at Interpreter.exec (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:770:16)\n      at Interpreter.execute (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:204:14)\n      at Interpreter.update (/opt/unityhub/resources/app.asar/node_modules/xstate/lib/interpreter.js:230:12) {\n    code: 0\n  }\n]"}
+{"timestamp":"2023-06-20T23:41:14.965Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:14.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:14.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:14.980Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:41:14.995Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:41:14.995Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:42.877Z","level":"info","moduleName":"Download Item 2022.3.2f1-x86_64","message":"[ 'Download Finished. Wrote 3045679308 bytes on the disk.' ]"}
+{"timestamp":"2023-06-20T23:44:42.881Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2022.3.2f1-x86_64, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:44:42.881Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2022.3.2f1-x86_64, Filename: Unity-2022.3.2f1.tar.xz \\n    Current State: COMPLETED, exiting the state machine.' ]"}
+{"timestamp":"2023-06-20T23:44:42.881Z","level":"info","moduleName":"Download Item 2022.3.2f1-x86_64","message":"[ 'Transition to state download_finished' ]"}
+{"timestamp":"2023-06-20T23:44:42.881Z","level":"info","moduleName":"Download Item","message":"[ 'Download: 2022.3.2f1-x86_64, Exiting from State: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:44:42.885Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:42.904Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:44:42.904Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:42.904Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:42.923Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:44:42.923Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:44.658Z","level":"info","moduleName":"Installation Manager","message":"[ 'Starting installer of 2022.3.2f1-x86_64' ]"}
+{"timestamp":"2023-06-20T23:44:44.658Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Starting the state machine of 2022.3.2f1-x86_64.' ]"}
+{"timestamp":"2023-06-20T23:44:44.660Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Entered State: install_validation' ]"}
+{"timestamp":"2023-06-20T23:44:44.660Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:44.661Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2023-06-20T23:44:44.662Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2023-06-20T23:44:44.662Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR' ]"}
+{"timestamp":"2023-06-20T23:44:44.662Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying absence of an existing editor installation...' ]"}
+{"timestamp":"2023-06-20T23:44:44.663Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Existing Editor Installation Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:44:44.663Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-06-20T23:44:44.664Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-06-20T23:44:44.664Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-06-20T23:44:44.664Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 3045679308 bytes / 2.84 GB...' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying read and write accessibility to installer source path: /tmp/unityhub-e6c84cf0-0fc3-11ee-a2be-13cf8310d5c1/Unity-2022.3.2f1.tar.xz' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-06-20T23:44:44.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2023-06-20T23:44:44.667Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Exiting from State: Validation. Event: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:44:44.667Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Transition to state \"installation\" on event \"VALIDATION_PASSED\"' ]"}
+{"timestamp":"2023-06-20T23:44:44.667Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Entered State: installation' ]"}
+{"timestamp":"2023-06-20T23:44:44.668Z","level":"info","moduleName":"EditorInstallerWorkflow (2022.3.2f1-x86_64)","message":"[ 'Starting the editor installation...' ]"}
+{"timestamp":"2023-06-20T23:44:44.684Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:44:44.684Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:44.684Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:44:44.699Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:44:44.699Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:09.961Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/mjomdal/.local/share/Unity/2022.3.2f1/modules.json' ]"}
+{"timestamp":"2023-06-20T23:46:09.964Z","level":"info","moduleName":"EditorInstallerWorkflow (2022.3.2f1-x86_64)","message":"[ 'Editor is successfully installed' ]"}
+{"timestamp":"2023-06-20T23:46:09.964Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Exiting from State: Installation. Event: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:46:09.964Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Transition to state \"install_finished\" on event \"COMPLETED\"' ]"}
+{"timestamp":"2023-06-20T23:46:09.964Z","level":"info","moduleName":"Installation Manager","message":"[ 'Update: install_finished' ]"}
+{"timestamp":"2023-06-20T23:46:09.965Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Entered State: install_finished' ]"}
+{"timestamp":"2023-06-20T23:46:09.965Z","level":"info","moduleName":"Installer: 2022.3.2f1-x86_64","message":"[ 'Exiting from State: Finished. Event: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:46:09.965Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:09.981Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:09.982Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:09.982Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:09.997Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:09.997Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.664Z","level":"info","moduleName":"Installation Manager","message":"[ 'Starting installer of webgl' ]"}
+{"timestamp":"2023-06-20T23:46:14.664Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Starting the state machine of webgl.' ]"}
+{"timestamp":"2023-06-20T23:46:14.664Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Entered State: install_validation' ]"}
+{"timestamp":"2023-06-20T23:46:14.665Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.665Z","level":"info","moduleName":"Installation Manager","message":"[ 'Starting installer of documentation' ]"}
+{"timestamp":"2023-06-20T23:46:14.665Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Starting the state machine of documentation.' ]"}
+{"timestamp":"2023-06-20T23:46:14.666Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Entered State: install_validation' ]"}
+{"timestamp":"2023-06-20T23:46:14.666Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.666Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Executing the Install Validation Strategy...' ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ \"Verifying the module destination... id: 'webgl', destination: /home/mjomdal/.local/share/Unity/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport\" ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating presence of an existing installation...' ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying installation type: EDITOR_MODULE' ]"}
+{"timestamp":"2023-06-20T23:46:14.667Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Skipping module destination check for whitelisted item: documentation' ]"}
+{"timestamp":"2023-06-20T23:46:14.668Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying selected value of module in modules.json at /home/mjomdal/.local/share/Unity/2022.3.2f1/modules.json' ]"}
+{"timestamp":"2023-06-20T23:46:14.668Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Editor Module Installation Destination Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.668Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying selected value of module in modules.json at /home/mjomdal/.local/share/Unity/2022.3.2f1/modules.json' ]"}
+{"timestamp":"2023-06-20T23:46:14.669Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.669Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-06-20T23:46:14.669Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'modules.json Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.669Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating destination path permission for access...' ]"}
+{"timestamp":"2023-06-20T23:46:14.670Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.670Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-06-20T23:46:14.670Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 570625980 bytes / 544.19 MB...' ]"}
+{"timestamp":"2023-06-20T23:46:14.673Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2023-06-20T23:46:14.673Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying read and write accessibility to installer source path: /tmp/unityhub-e6cb3320-0fc3-11ee-a2be-13cf8310d5c1/UnitySetup-WebGL-Support-for-Editor-2022.3.2f1.tar.xz' ]"}
+{"timestamp":"2023-06-20T23:46:14.673Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Destination Path check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.673Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating available disk space on the partition.' ]"}
+{"timestamp":"2023-06-20T23:46:14.673Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Required space: 347812411 bytes / 331.7 MB...' ]"}
+{"timestamp":"2023-06-20T23:46:14.674Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating accessibility of installer...' ]"}
+{"timestamp":"2023-06-20T23:46:14.674Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Verifying read and write accessibility to installer source path: /tmp/unityhub-e6cba850-0fc3-11ee-a2be-13cf8310d5c1/UnityDocumentation.zip' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Exiting from State: Validation. Event: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:46:14.675Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Transition to state \"installation\" on event \"VALIDATION_PASSED\"' ]"}
+{"timestamp":"2023-06-20T23:46:14.676Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Entered State: installation' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Installer Accessibility Check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Validating file integrity (checksum)..' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum value not supplied. Skipping Checksum' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Checksum check: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Disk Validation Strategy","message":"[ 'Overall validation result: Passed' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Exiting from State: Validation. Event: VALIDATION_PASSED' ]"}
+{"timestamp":"2023-06-20T23:46:14.677Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Transition to state \"installation\" on event \"VALIDATION_PASSED\"' ]"}
+{"timestamp":"2023-06-20T23:46:14.678Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Entered State: installation' ]"}
+{"timestamp":"2023-06-20T23:46:14.687Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:14.687Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.687Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.695Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:14.695Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.695Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.710Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:14.710Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:14.721Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:14.721Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:26.112Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/mjomdal/.local/share/Unity/2022.3.2f1/modules.json' ]"}
+{"timestamp":"2023-06-20T23:46:26.114Z","level":"info","moduleName":"ModuleInstallerWorkflow (documentation)","message":"[ 'Module documentation is successfully installed' ]"}
+{"timestamp":"2023-06-20T23:46:26.116Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Exiting from State: Installation. Event: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:46:26.116Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Transition to state \"install_finished\" on event \"COMPLETED\"' ]"}
+{"timestamp":"2023-06-20T23:46:26.116Z","level":"info","moduleName":"Installation Manager","message":"[ 'Update: install_finished' ]"}
+{"timestamp":"2023-06-20T23:46:26.116Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Entered State: install_finished' ]"}
+{"timestamp":"2023-06-20T23:46:26.117Z","level":"info","moduleName":"Installer: documentation","message":"[ 'Exiting from State: Finished. Event: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:46:26.117Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:26.135Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:26.135Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:26.136Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:26.152Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:26.152Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:43.852Z","level":"info","moduleName":"Installer:ReleaseFileIO","message":"[ 'read /home/mjomdal/.local/share/Unity/2022.3.2f1/modules.json' ]"}
+{"timestamp":"2023-06-20T23:46:43.853Z","level":"info","moduleName":"ModuleInstallerWorkflow (webgl)","message":"[ 'Module webgl is successfully installed' ]"}
+{"timestamp":"2023-06-20T23:46:43.853Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Exiting from State: Installation. Event: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:46:43.853Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Transition to state \"install_finished\" on event \"COMPLETED\"' ]"}
+{"timestamp":"2023-06-20T23:46:43.853Z","level":"info","moduleName":"Installation Manager","message":"[ 'Update: install_finished' ]"}
+{"timestamp":"2023-06-20T23:46:43.854Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Entered State: install_finished' ]"}
+{"timestamp":"2023-06-20T23:46:43.854Z","level":"info","moduleName":"Installer: webgl","message":"[ 'Exiting from State: Finished. Event: COMPLETED' ]"}
+{"timestamp":"2023-06-20T23:46:43.854Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:43.873Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:43.874Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:43.874Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:46:43.892Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:46:43.892Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:54:20.123Z","level":"info","moduleName":"CloudConfig","message":"[ 'Succeeded to refresh data from https://public-cdn.cloud.unity3d.com/config/production' ]"}
+{"timestamp":"2023-06-20T23:56:53.720Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:53.740Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:56:53.740Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:53.740Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:53.758Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:56:53.758Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:54.504Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:54.509Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:54.522Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:56:54.522Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:54.523Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:56:54.530Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:56:54.530Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:54.530Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:56:54.535Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:56:54.549Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:56:54.549Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:28.587Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:28.606Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:57:28.606Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:28.606Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:28.625Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:57:28.625Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:31.424Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:31.424Z","level":"error","moduleName":"Templates","message":"[ \"Manifest was corrupted, dependencies are unknown, forced to reset manifest.json: ENOENT: no such file or directory, open '/home/mjomdal/.config/unityhub/Templates/manifest.json'\" ]"}
+{"timestamp":"2023-06-20T23:57:31.444Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:57:31.444Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:31.445Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:57:31.466Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:57:31.466Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:59:33.298Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:59:33.310Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:59:33.310Z","level":"info","moduleName":"LocalProjectService","message":"[ 'createProject projectPath: /home/mjomdal/mosquito-n-frog, editor version: 2022.3.2f1, edtitor architecture x86_64' ]"}
+{"timestamp":"2023-06-20T23:59:33.311Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'checkEntitlements: checking entitlements for: com.unity.editor.ui' ]"}
+{"timestamp":"2023-06-20T23:59:33.322Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully checked for entitlements request.' ]"}
+{"timestamp":"2023-06-20T23:59:33.323Z","level":"info","moduleName":"LaunchProcess","message":"[ 'Spawning editor instance with command: ', '/home/mjomdal/.local/share/Unity/2022.3.2f1/Editor/Unity', ', and arguments: ', [ '-createproject', '/home/mjomdal/mosquito-n-frog', '-cloneFromTemplate', '/home/mjomdal/.local/share/Unity/2022.3.2f1/Editor/Data/Resources/PackageManager/ProjectTemplates/com.unity.template.universal-2d-2.1.2.tgz', '-cloudOrganization', '', '-cloudEnvironment', 'production', '-useHub', '-hubIPC', '-hubSessionId', '1c1352e6-8f3b-4e47-baea-96177b67ec9d', '-accessToken', '3_DHnFaJf_Hz7llFsTroVe3ncvA5FoNxliV8p0IRdXM002f' ] ]"}
+{"timestamp":"2023-06-20T23:59:33.345Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:59:33.361Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:59:33.361Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:59:33.361Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}
+{"timestamp":"2023-06-20T23:59:33.376Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Successfully received all entitlement groups details' ]"}
+{"timestamp":"2023-06-20T23:59:33.376Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Received 1 entitlement groups' ]"}
+{"timestamp":"2023-06-21T00:00:16.108Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]"}
+{"timestamp":"2023-06-21T00:00:16.312Z","level":"info","moduleName":"IPCServer:Auth","message":"[ 'Request from Editor: Connect info.' ]"}
+{"timestamp":"2023-06-21T00:00:16.514Z","level":"info","moduleName":"IPCServer:Auth","message":"[ 'Request from Editor: User info.' ]"}
+{"timestamp":"2023-06-21T00:03:51.326Z","level":"info","moduleName":"UnityIPCServer","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock closed' ]"}
+{"timestamp":"2023-06-21T00:03:51.326Z","level":"info","moduleName":"LicensingSdkService","message":"[ 'Get all entitlement groups' ]"}

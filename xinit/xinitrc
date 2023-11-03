@@ -39,8 +39,11 @@ picom --config $HOME/.config/picom/picom.conf &
 # Status Bar
 #$HOME/.config/polybar/launch.sh
 # Dunst
-dunst &
+#dunst &
 # Start Notification Daemon
-/usr/lib/notification-daemon-1.0/notification-daemon &
+#/usr/lib/notification-daemon-1.0/notification-daemon &
 # Window Manager
 exec i3
+
+# Enable policykit
+/usr/lib/polkit-kde-authentication-agent-1

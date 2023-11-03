@@ -12,6 +12,10 @@ application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 application/pdf=firefox.desktop
 x-scheme-handler/nc=com.nextcloud.desktopclient.nextcloud.desktop
+image/jpeg=org.gnome.Loupe.desktop
+x-scheme-handler/etcher=balena-etcher.desktop
+text/markdown=userapp-kitty --directory %f vim %d-8MZPA2.desktop
+application/x-zerosize=nvim.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -25,5 +29,7 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
-application/pdf=firefox.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;firefox.desktop;
 image/jpeg=org.gimp.GIMP.desktop;org.gnome.Loupe.desktop;
+text/markdown=userapp-kitty --directory %f vim %d-8MZPA2.desktop;userapp-kitty -d %f && vim .-7QISA2.desktop;visual-studio-code.desktop;nvim.desktop;
+application/x-zerosize=nvim.desktop;

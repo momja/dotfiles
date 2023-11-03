@@ -1,0 +1,24 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/
+
+[Extraction]
+closeAfterExtraction=true
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
+detailViewIconSize=16
+
+[MainWindow]
+2560x1440 screen: Height=700
+2560x1440 screen: Width=623
+2560x1440 screen: XPosition=1922
+2560x1440 screen: YPosition=725
+HDMI-0=HDMI-0
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAC5AAACevwCAAAAAfsAAAAWAGEAcgBrAF8AcwBpAGQAZQBiAGEAcgEAAAAhAAACegAAAGwA///+AAABrwAAAnoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+splitterSizes=413,206
