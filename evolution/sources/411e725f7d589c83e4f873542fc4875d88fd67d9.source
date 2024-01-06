@@ -1,0 +1,31 @@
+[Data Source]
+DisplayName=mjomdal@nextcloud.maxomdal.com
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=none
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=
+CredentialName=
+IsExternal=true
+
+[Collection]
+BackendName=webdav
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=mjomdal
+MailEnabled=true
+AllowSourcesRename=false
+CalendarUrl=
+ContactsUrl=
+
+[GNOME Online Accounts]
+AccountId=account_1704557541_0
+CalendarUrl=https://mjomdal@nextcloud.maxomdal.com/remote.php/dav/
+ContactsUrl=https://mjomdal@nextcloud.maxomdal.com/remote.php/dav/
+Name=
+Address=
