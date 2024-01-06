@@ -1,0 +1,27 @@
+[submodule "nvim/pack/fzf-lua/start/fzf-lua"]
+	path = nvim/pack/fzf-lua/start/fzf-lua
+	url = https://github.com/ibhagwan/fzf-lua.git
+[submodule "nvim/pack/junegunn/start/vim-peekaboo"]
+	path = nvim/pack/junegunn/start/vim-peekaboo
+	url = https://github.com/junegunn/vim-peekaboo.git
+[submodule "nvim/pack/nvim-treesitter/start/nvim-treesitter"]
+	path = nvim/pack/nvim-treesitter/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "nvim/pack/themes/start/dracula"]
+	path = nvim/pack/themes/start/dracula
+	url = https://github.com/dracula/vim.git
+[submodule "nvim/pack/tpope/start/vim-fugitive"]
+	path = nvim/pack/tpope/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "nvim/pack/tpope/start/vim-commentary"]
+	path = nvim/pack/tpope/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "nvim/pack/tpope/start/vim-surround"]
+	path = nvim/pack/tpope/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "nvim/pack/gitsigns/start/gitsigns.nvim"]
+	path = nvim/pack/gitsigns/start/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "nvim/pack/nvim-web-devicons/start/nvim-web-devicons"]
+	path = nvim/pack/nvim-web-devicons/start/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons.git
