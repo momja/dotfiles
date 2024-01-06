@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/maxomdal/.cache/ibus/dbus-lFNBpjlQ,guid=0a6e333bf4772cdf39341952659977f0
-IBUS_DAEMON_PID=5689
+IBUS_ADDRESS=unix:path=/home/maxomdal/.cache/ibus/dbus-aiRxv9VE,guid=571850ce5a573cafc10fd33f65998cb7
+IBUS_DAEMON_PID=3819
